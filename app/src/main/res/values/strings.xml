@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Dentist Clinic View</string>
+    <string name="hi_test">hi test</string>
+    <string name="enter_ph_level">Enter pH Level:</string>
+    <string name="_1_14">1-14</string>
+    <string name="hello">hello</string>
 </resources>
