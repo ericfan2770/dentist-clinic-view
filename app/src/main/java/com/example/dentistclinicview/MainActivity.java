@@ -1,5 +1,6 @@
 package com.example.dentistclinicview;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -14,6 +15,7 @@ import android.view.View;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -33,7 +35,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        // Button for tooth1
         ImageButton button = (ImageButton) findViewById(R.id.tooth1);
+
+        //
         EditText pHInput = (EditText) findViewById(R.id.editTextpHLevel);
         TextView pHPrompt = (TextView) findViewById(R.id.pHLevelPrompt);
 
@@ -65,13 +71,21 @@ public class MainActivity extends AppCompatActivity {
 
                    pHDisplay(pHDisplay, pH[0]);
 
+                   closeKeyboard();
+
                    return true;
                }
                return false;
            }
         });
+    }
 
-
+    private void closeKeyboard() {
+        View view = this.getCurrentFocus();
+        if (view != null) {
+            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
     }
 
     private void pHDisplay(TextView phDisplay, String pH) {
