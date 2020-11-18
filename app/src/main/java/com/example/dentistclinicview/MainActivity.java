@@ -40,20 +40,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        handleTooth();
+        handleTooth(0, R.id.tooth1, R.id.pHInputTooth1, R.id.pHTooth1);
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
-    public void handleTooth() {
+    public void handleTooth(int toothNum, int toothId, int inputId, int phId) {
         // Button for tooth1
-        ImageButton button = (ImageButton) findViewById(R.id.tooth1);
+        ImageButton button = (ImageButton) findViewById(toothId);
         Context contextInstance = getApplicationContext();
 
         // Input text box for tooth1
-        EditText phInput = (EditText) findViewById(R.id.editTextpHLevel);
+        EditText phInput = (EditText) findViewById(inputId);
 
         // Text display for tooth 1
-        TextView phDisplay = (TextView) findViewById(R.id.pHTooth1);
+        TextView phDisplay = (TextView) findViewById(phId);
         phDisplay.setVisibility(View.INVISIBLE);
 
         // Desired action to be performed when the tooth button is clicked
@@ -86,26 +86,26 @@ public class MainActivity extends AppCompatActivity {
                 if (event.getAction() == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_ENTER) {
                     // Get the pH that the client has entered
                     try {
-                        teethPh[0] = Integer.parseInt(phInput.getText().toString());
+                        teethPh[toothNum] = Integer.parseInt(phInput.getText().toString());
                     } catch (NumberFormatException exception) {
                         showToast("Please enter a number between 1 to 14");
                         ok = false;
                     }
 
-                    if (!validPh(teethPh[0])) {
+                    if (!validPh(teethPh[toothNum])) {
                         showToast("Please enter a number between 1 to 14");
                         ok = false;
                     }
                     if (ok) {
-                        setToothColor(button, contextInstance, teethPh[0]);
+                        setToothColor(button, contextInstance, teethPh[toothNum]);
 
                         // Display pH that user entered
-                        String confirmation = "You entered a pH of " + teethPh[0] + " for tooth 1";
+                        String confirmation = "You entered a pH of " + teethPh[toothNum] + " for tooth 1";
                         showToast(confirmation);
 
                         // Make the pH input field invisible
                         phInput.setVisibility(View.INVISIBLE);
-                        pHDisplay(phDisplay, teethPh[0]);
+                        pHDisplay(phDisplay, teethPh[toothNum]);
 
                         // Drop the keyboard out of sight
                         closeKeyboard();
