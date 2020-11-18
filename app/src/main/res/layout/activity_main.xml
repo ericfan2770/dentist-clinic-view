@@ -8,7 +8,7 @@
     android:background="#cce3ff"
     tools:context=".MainActivity">
 
-
+<!--    pH Input Text Edit for the 32 Teeth-->
     <EditText
         android:id="@+id/pHInputTooth1"
         android:layout_width="57dp"
@@ -20,10 +20,506 @@
         android:ems="10"
         android:hint="@string/_1_14"
         android:inputType="textPersonName"
-        android:visibility="gone"
         android:gravity="center_horizontal"
+        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth1" />
+
+    <EditText
+        android:id="@+id/pHInputTooth2"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="352dp"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth2" />
+
+    <EditText
+        android:id="@+id/pHInputTooth3"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="392dp"
+        android:layout_marginLeft="392dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth3" />
+
+    <EditText
+        android:id="@+id/pHInputTooth4"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="432dp"
+        android:layout_marginLeft="432dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth4" />
+
+    <EditText
+        android:id="@+id/pHInputTooth5"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="472dp"
+        android:layout_marginLeft="472dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth5" />
+
+    <EditText
+        android:id="@+id/pHInputTooth6"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="512dp"
+        android:layout_marginLeft="512dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth6" />
+
+    <EditText
+        android:id="@+id/pHInputTooth7"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="552dp"
+        android:layout_marginLeft="552dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth7" />
+
+    <EditText
+        android:id="@+id/pHInputTooth8"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="592dp"
+        android:layout_marginLeft="592dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth8" />
+
+    <EditText
+        android:id="@+id/pHInputTooth9"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="632dp"
+        android:layout_marginLeft="632dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth9" />
+
+    <EditText
+        android:id="@+id/pHInputTooth10"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="672dp"
+        android:layout_marginLeft="672dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth10" />
+
+    <EditText
+        android:id="@+id/pHInputTooth11"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="712dp"
+        android:layout_marginLeft="712dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth11" />
+
+    <EditText
+        android:id="@+id/pHInputTooth12"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="752dp"
+        android:layout_marginLeft="752dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth12" />
+
+    <EditText
+        android:id="@+id/pHInputTooth13"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="792dp"
+        android:layout_marginLeft="792dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth13" />
+
+    <EditText
+        android:id="@+id/pHInputTooth14"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="832dp"
+        android:layout_marginLeft="832dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth14" />
+
+    <EditText
+        android:id="@+id/pHInputTooth15"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="872dp"
+        android:layout_marginLeft="872dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth15" />
+
+    <EditText
+        android:id="@+id/pHInputTooth16"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="912dp"
+        android:layout_marginLeft="912dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth16" />
+
+    <EditText
+        android:id="@+id/pHInputTooth17"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginLeft="312dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth17" />
+
+    <EditText
+        android:id="@+id/pHInputTooth18"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="352dp"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth18" />
+
+    <EditText
+        android:id="@+id/pHInputTooth19"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="392dp"
+        android:layout_marginLeft="392dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth19" />
+
+    <EditText
+        android:id="@+id/pHInputTooth20"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="432dp"
+        android:layout_marginLeft="432dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth20" />
+
+    <EditText
+        android:id="@+id/pHInputTooth21"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="472dp"
+        android:layout_marginLeft="472dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth21" />
+
+    <EditText
+        android:id="@+id/pHInputTooth22"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="512dp"
+        android:layout_marginLeft="512dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth22" />
+
+    <EditText
+        android:id="@+id/pHInputTooth23"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="552dp"
+        android:layout_marginLeft="552dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth23" />
+
+    <EditText
+        android:id="@+id/pHInputTooth24"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="592dp"
+        android:layout_marginLeft="592dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth24" />
+
+    <EditText
+        android:id="@+id/pHInputTooth25"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="632dp"
+        android:layout_marginLeft="632dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth25" />
+
+    <EditText
+        android:id="@+id/pHInputTooth26"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="672dp"
+        android:layout_marginLeft="672dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth26" />
+
+    <EditText
+        android:id="@+id/pHInputTooth27"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="712dp"
+        android:layout_marginLeft="712dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth27" />
+
+    <EditText
+        android:id="@+id/pHInputTooth28"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="752dp"
+        android:layout_marginLeft="752dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth28" />
+
+    <EditText
+        android:id="@+id/pHInputTooth29"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="792dp"
+        android:layout_marginLeft="792dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth29" />
+
+    <EditText
+        android:id="@+id/pHInputTooth30"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="832dp"
+        android:layout_marginLeft="832dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth30" />
+
+    <EditText
+        android:id="@+id/pHInputTooth31"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="872dp"
+        android:layout_marginLeft="872dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth31" />
+
+    <EditText
+        android:id="@+id/pHInputTooth32"
+        android:layout_width="57dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="912dp"
+        android:layout_marginLeft="912dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth32" />
 
 <!--    ph Displays for the 32 Teeth-->
 
@@ -40,7 +536,410 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth1" />
 
+    <TextView
+        android:id="@+id/pHTooth2"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="374dp"
+        android:layout_marginLeft="374dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth2" />
+
+    <TextView
+        android:id="@+id/pHTooth3"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="414dp"
+        android:layout_marginLeft="414dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth3" />
+
+    <TextView
+        android:id="@+id/pHTooth4"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="454dp"
+        android:layout_marginLeft="454dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth4" />
+
+    <TextView
+        android:id="@+id/pHTooth5"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="494dp"
+        android:layout_marginLeft="494dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth5" />
+
+    <TextView
+        android:id="@+id/pHTooth6"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="534dp"
+        android:layout_marginLeft="534dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth6" />
+
+    <TextView
+        android:id="@+id/pHTooth7"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="574dp"
+        android:layout_marginLeft="574dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth7" />
+
+    <TextView
+        android:id="@+id/pHTooth8"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="614dp"
+        android:layout_marginLeft="614dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth8" />
+
+    <TextView
+        android:id="@+id/pHTooth9"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="654dp"
+        android:layout_marginLeft="654dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth9" />
+
+    <TextView
+        android:id="@+id/pHTooth10"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="694dp"
+        android:layout_marginLeft="694dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth10" />
+
+    <TextView
+        android:id="@+id/pHTooth11"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="734dp"
+        android:layout_marginLeft="734dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth11" />
+
+    <TextView
+        android:id="@+id/pHTooth12"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="774dp"
+        android:layout_marginLeft="774dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth12" />
+
+    <TextView
+        android:id="@+id/pHTooth13"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="814dp"
+        android:layout_marginLeft="814dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth13" />
+
+    <TextView
+        android:id="@+id/pHTooth14"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="854dp"
+        android:layout_marginLeft="854dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth14" />
+
+    <TextView
+        android:id="@+id/pHTooth15"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="894dp"
+        android:layout_marginLeft="894dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth15" />
+
+    <TextView
+        android:id="@+id/pHTooth16"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="934dp"
+        android:layout_marginLeft="934dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth16" />
+
+    <TextView
+        android:id="@+id/pHTooth17"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="334dp"
+        android:layout_marginLeft="334dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth17" />
+
+    <TextView
+        android:id="@+id/pHTooth18"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="374dp"
+        android:layout_marginLeft="374dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth18" />
+
+    <TextView
+        android:id="@+id/pHTooth19"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="414dp"
+        android:layout_marginLeft="414dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth19" />
+
+    <TextView
+        android:id="@+id/pHTooth20"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="454dp"
+        android:layout_marginLeft="454dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth20" />
+
+    <TextView
+        android:id="@+id/pHTooth21"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="494dp"
+        android:layout_marginLeft="494dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth21" />
+
+    <TextView
+        android:id="@+id/pHTooth22"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="534dp"
+        android:layout_marginLeft="534dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth22" />
+
+    <TextView
+        android:id="@+id/pHTooth23"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="574dp"
+        android:layout_marginLeft="574dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth23" />
+
+    <TextView
+        android:id="@+id/pHTooth24"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="614dp"
+        android:layout_marginLeft="614dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth24" />
+
+    <TextView
+        android:id="@+id/pHTooth25"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="654dp"
+        android:layout_marginLeft="654dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth25" />
+
+    <TextView
+        android:id="@+id/pHTooth26"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="694dp"
+        android:layout_marginLeft="694dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth26" />
+
+    <TextView
+        android:id="@+id/pHTooth27"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="734dp"
+        android:layout_marginLeft="734dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth27" />
+
+    <TextView
+        android:id="@+id/pHTooth28"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="774dp"
+        android:layout_marginLeft="774dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth28" />
+
+    <TextView
+        android:id="@+id/pHTooth29"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="814dp"
+        android:layout_marginLeft="814dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth29" />
+
+    <TextView
+        android:id="@+id/pHTooth30"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="854dp"
+        android:layout_marginLeft="854dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth30" />
+
+    <TextView
+        android:id="@+id/pHTooth31"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="894dp"
+        android:layout_marginLeft="894dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth31" />
+
     <!--    Image Buttons for the 32 Teeth-->
+
+    <TextView
+        android:id="@+id/pHTooth32"
+        android:layout_width="16dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="934dp"
+        android:layout_marginLeft="934dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth32" />
 
     <ImageButton
         android:id="@+id/tooth16"
