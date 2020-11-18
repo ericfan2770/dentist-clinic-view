@@ -41,8 +41,6 @@ public class MainActivity extends AppCompatActivity {
 
         //
         EditText pHInput = (EditText) findViewById(R.id.editTextpHLevel);
-        TextView pHPrompt = (TextView) findViewById(R.id.pHLevelPrompt);
-
         TextView pHDisplay = (TextView) findViewById(R.id.pHTooth1);
         pHDisplay.setVisibility(View.INVISIBLE);
 
@@ -51,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Make the pH input field and prompt visible
                 pHInput.setVisibility(View.VISIBLE);
-                pHPrompt.setVisibility(View.VISIBLE);
             }
         });
 
@@ -67,8 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
                    // Make the pH input field and prompt invisible
                    pHInput.setVisibility(View.INVISIBLE);
-                   pHPrompt.setVisibility(View.INVISIBLE);
-
                    pHDisplay(pHDisplay, pH[0]);
 
                    closeKeyboard();
