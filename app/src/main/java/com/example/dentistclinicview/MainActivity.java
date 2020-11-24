@@ -1,24 +1,15 @@
 package com.example.dentistclinicview;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.os.Build;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -33,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     private int[] teethId;
     private int[] phInput;
     private int[] phId;
+    private boolean showingInput;
+    private int currToothId;
 
     public MainActivity() {
         teethPh = new int[32];
@@ -167,6 +160,9 @@ public class MainActivity extends AppCompatActivity {
         teethId[31] = R.id.tooth32;
         phInput[31] = R.id.pHInputTooth32;
         phId[31] = R.id.pHTooth32;
+
+        showingInput = false;
+        currToothId = -1;
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -197,12 +193,33 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Make the pH input field visible
-                phInput.setVisibility(View.VISIBLE);
+                if (!showingInput) {
+                    // Make the pH input field visible
+                    phInput.setVisibility(View.VISIBLE);
 
-                // Make the pH of the tooth, if already there, invisible (because we are about
-                // to change the pH)
-                phDisplay.setVisibility(View.INVISIBLE);
+                    // Make the pH of the tooth, if already there, invisible (because we are about
+                    // to change the pH)
+                    phDisplay.setVisibility(View.INVISIBLE);
+
+                    // Indicate that we are currently waiting for input
+                    showingInput = true;
+
+                    currToothId = toothId;
+                } else {
+                    if (currToothId == toothId) {
+                        // Make the pH input field invisible
+                        phInput.setVisibility(View.INVISIBLE);
+
+                        // Make the pH of the tooth, visible
+                        phDisplay.setVisibility(View.VISIBLE);
+
+                        // Drop the keyboard out of sight
+                        closeKeyboard();
+
+                        // Indicate that we are no longer waiting for input
+                        showingInput = false;
+                    }
+                }
             }
         });
 
@@ -235,6 +252,9 @@ public class MainActivity extends AppCompatActivity {
                         ok = false;
                     }
                     if (ok) {
+                        // Indicate that we are no longer waiting for user input
+                        showingInput = false;
+
                         setToothColor(button, contextInstance, teethPh[toothNum]);
 
                         // Display pH that user entered
@@ -270,6 +290,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void showToast(String text) {
         Toast.makeText(MainActivity.this, text, Toast.LENGTH_SHORT).show();
+//        LayoutInflater inflater = getLayoutInflater();
+//        View layout = inflater.inflate(R.layout.custom_toast,
+//                (ViewGroup) findViewById(R.id.custom_toast_container));
+//
+//        TextView textView = (TextView) layout.findViewById(R.id.text);
+//        textView.setText(text);
+//
+//        Toast toast = new Toast(getApplicationContext());
+//        toast.setGravity(Gravity.TOP, 0, 200);
+//        toast.setDuration(Toast.LENGTH_LONG);
+//        toast.setView(layout);
+//        toast.show();
     }
 
     public boolean validPh(int ph) {
