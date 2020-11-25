@@ -1276,7 +1276,8 @@
         android:tint="#F8FFF0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/btn_default_small" />
+        app:srcCompat="@android:drawable/btn_default_small"
+        android:contentDescription="TODO" />
 
     <ImageButton
         android:id="@+id/tooth15"

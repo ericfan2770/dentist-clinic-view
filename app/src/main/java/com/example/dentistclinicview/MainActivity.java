@@ -1,10 +1,12 @@
 package com.example.dentistclinicview;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Build;
 import android.os.Bundle;
 
 import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.KeyEvent;
@@ -20,143 +22,177 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     public static final int NUM_TEETH = 32;
 
-    private int[] teethPh;
-    private int[] teethId;
-    private int[] phInput;
-    private int[] phId;
+    private final int[] toothNum;
+    private final int[] teethPh;
+    private final int[] teethId;
+    private final int[] phInput;
+    private final int[] phId;
     private boolean showingInput;
     private int currToothId;
 
     public MainActivity() {
+        toothNum = new int[32];
         teethPh = new int[32];
         teethId = new int[32];
         phInput = new int[32];
         phId = new int[32];
 
+        toothNum[0] = R.id.toothNumber1;
         teethId[0] = R.id.tooth1;
         phInput[0] = R.id.pHInputTooth1;
         phId[0] = R.id.pHTooth1;
 
+        toothNum[1] = R.id.toothNumber2;
         teethId[1] = R.id.tooth2;
         phInput[1] = R.id.pHInputTooth2;
         phId[1] = R.id.pHTooth2;
 
+        toothNum[2] = R.id.toothNumber3;
         teethId[2] = R.id.tooth3;
         phInput[2] = R.id.pHInputTooth3;
         phId[2] = R.id.pHTooth3;
 
+        toothNum[3] = R.id.toothNumber4;
         teethId[3] = R.id.tooth4;
         phInput[3] = R.id.pHInputTooth4;
         phId[3] = R.id.pHTooth4;
 
+        toothNum[4] = R.id.toothNumber5;
         teethId[4] = R.id.tooth5;
         phInput[4] = R.id.pHInputTooth5;
         phId[4] = R.id.pHTooth5;
 
+        toothNum[5] = R.id.toothNumber6;
         teethId[5] = R.id.tooth6;
         phInput[5] = R.id.pHInputTooth6;
         phId[5] = R.id.pHTooth6;
 
+        toothNum[6] = R.id.toothNumber7;
         teethId[6] = R.id.tooth7;
         phInput[6] = R.id.pHInputTooth7;
         phId[6] = R.id.pHTooth7;
 
+        toothNum[7] = R.id.toothNumber8;
         teethId[7] = R.id.tooth8;
         phInput[7] = R.id.pHInputTooth8;
         phId[7] = R.id.pHTooth8;
 
+        toothNum[8] = R.id.toothNumber9;
         teethId[8] = R.id.tooth9;
         phInput[8] = R.id.pHInputTooth9;
         phId[8] = R.id.pHTooth9;
 
+        toothNum[9] = R.id.toothNumber10;
         teethId[9] = R.id.tooth10;
         phInput[9] = R.id.pHInputTooth10;
         phId[9] = R.id.pHTooth10;
 
+        toothNum[10] = R.id.toothNumber11;
         teethId[10] = R.id.tooth11;
         phInput[10] = R.id.pHInputTooth11;
         phId[10] = R.id.pHTooth11;
 
+        toothNum[11] = R.id.toothNumber12;
         teethId[11] = R.id.tooth12;
         phInput[11] = R.id.pHInputTooth12;
         phId[11] = R.id.pHTooth12;
 
+        toothNum[12] = R.id.toothNumber13;
         teethId[12] = R.id.tooth13;
         phInput[12] = R.id.pHInputTooth13;
         phId[12] = R.id.pHTooth13;
 
+        toothNum[13] = R.id.toothNumber14;
         teethId[13] = R.id.tooth14;
         phInput[13] = R.id.pHInputTooth14;
         phId[13] = R.id.pHTooth14;
 
+        toothNum[14] = R.id.toothNumber15;
         teethId[14] = R.id.tooth15;
         phInput[14] = R.id.pHInputTooth15;
         phId[14] = R.id.pHTooth15;
 
+        toothNum[15] = R.id.toothNumber16;
         teethId[15] = R.id.tooth16;
         phInput[15] = R.id.pHInputTooth16;
         phId[15] = R.id.pHTooth16;
 
+        toothNum[16] = R.id.toothNumber17;
         teethId[16] = R.id.tooth17;
         phInput[16] = R.id.pHInputTooth17;
         phId[16] = R.id.pHTooth17;
 
+        toothNum[17] = R.id.toothNumber18;
         teethId[17] = R.id.tooth18;
         phInput[17] = R.id.pHInputTooth18;
         phId[17] = R.id.pHTooth18;
 
+        toothNum[18] = R.id.toothNumber19;
         teethId[18] = R.id.tooth19;
         phInput[18] = R.id.pHInputTooth19;
         phId[18] = R.id.pHTooth19;
 
+        toothNum[19] = R.id.toothNumber20;
         teethId[19] = R.id.tooth20;
         phInput[19] = R.id.pHInputTooth20;
         phId[19] = R.id.pHTooth20;
 
+        toothNum[20] = R.id.toothNumber21;
         teethId[20] = R.id.tooth21;
         phInput[20] = R.id.pHInputTooth21;
         phId[20] = R.id.pHTooth21;
 
+        toothNum[21] = R.id.toothNumber22;
         teethId[21] = R.id.tooth22;
         phInput[21] = R.id.pHInputTooth22;
         phId[21] = R.id.pHTooth22;
 
+        toothNum[22] = R.id.toothNumber23;
         teethId[22] = R.id.tooth23;
         phInput[22] = R.id.pHInputTooth23;
         phId[22] = R.id.pHTooth23;
 
+        toothNum[23] = R.id.toothNumber24;
         teethId[23] = R.id.tooth24;
         phInput[23] = R.id.pHInputTooth24;
         phId[23] = R.id.pHTooth24;
 
+        toothNum[24] = R.id.toothNumber25;
         teethId[24] = R.id.tooth25;
         phInput[24] = R.id.pHInputTooth25;
         phId[24] = R.id.pHTooth25;
 
+        toothNum[25] = R.id.toothNumber26;
         teethId[25] = R.id.tooth26;
         phInput[25] = R.id.pHInputTooth26;
         phId[25] = R.id.pHTooth26;
 
+        toothNum[26] = R.id.toothNumber27;
         teethId[26] = R.id.tooth27;
         phInput[26] = R.id.pHInputTooth27;
         phId[26] = R.id.pHTooth27;
 
+        toothNum[27] = R.id.toothNumber28;
         teethId[27] = R.id.tooth28;
         phInput[27] = R.id.pHInputTooth28;
         phId[27] = R.id.pHTooth28;
 
+        toothNum[28] = R.id.toothNumber29;
         teethId[28] = R.id.tooth29;
         phInput[28] = R.id.pHInputTooth29;
         phId[28] = R.id.pHTooth29;
 
+        toothNum[29] = R.id.toothNumber30;
         teethId[29] = R.id.tooth30;
         phInput[29] = R.id.pHInputTooth30;
         phId[29] = R.id.pHTooth30;
 
+        toothNum[30] = R.id.toothNumber31;
         teethId[30] = R.id.tooth31;
         phInput[30] = R.id.pHInputTooth31;
         phId[30] = R.id.pHTooth31;
 
+        toothNum[31] = R.id.toothNumber32;
         teethId[31] = R.id.tooth32;
         phInput[31] = R.id.pHInputTooth32;
         phId[31] = R.id.pHTooth32;
@@ -172,22 +208,25 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         for (int i = 0; i < NUM_TEETH; i++) {
-            handleTooth(i, teethId[i], phInput[i], phId[i]);
+            handleTooth(i, toothNum[i], teethId[i], phInput[i], phId[i]);
         }
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
-    public void handleTooth(int toothNum, int toothId, int inputId, int phId) {
+    public void handleTooth(int tooth, int toothNum, int toothId, int inputId, int phId) {
         // Button for tooth1
-        ImageButton button = (ImageButton) findViewById(toothId);
+        ImageButton button = findViewById(toothId);
         Context contextInstance = getApplicationContext();
 
-        // Input text box for tooth1
-        EditText phInput = (EditText) findViewById(inputId);
+        // Input text box for tooth
+        EditText phInput = findViewById(inputId);
 
-        // Text display for tooth 1
-        TextView phDisplay = (TextView) findViewById(phId);
+        // pH display for tooth
+        TextView phDisplay = findViewById(phId);
         phDisplay.setVisibility(View.INVISIBLE);
+
+        // Tooth number display for tooth
+        TextView toothNumDisplay = findViewById(toothNum);
 
         // Desired action to be performed when the tooth button is clicked
         button.setOnClickListener(new View.OnClickListener() {
@@ -227,8 +266,30 @@ public class MainActivity extends AppCompatActivity {
         button.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                button.setVisibility(View.INVISIBLE);
-                phDisplay.setVisibility(View.INVISIBLE);
+                AlertDialog.Builder builder1 = new AlertDialog.Builder(MainActivity.this);
+                builder1.setMessage("Are you sure you want to delete tooth " + (tooth + 1)+ "?");
+                builder1.setCancelable(true);
+
+                builder1.setPositiveButton(
+                        "Yes",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                button.setVisibility(View.INVISIBLE);
+                                phDisplay.setVisibility(View.INVISIBLE);
+                            }
+                        });
+
+                builder1.setNegativeButton(
+                        "No",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
+
+                AlertDialog alert11 = builder1.create();
+                alert11.show();
+
                 return true;
             }
         });
@@ -241,13 +302,13 @@ public class MainActivity extends AppCompatActivity {
                 if (event.getAction() == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_ENTER) {
                     // Get the pH that the client has entered
                     try {
-                        teethPh[toothNum] = Integer.parseInt(phInput.getText().toString());
+                        teethPh[tooth] = Integer.parseInt(phInput.getText().toString());
                     } catch (NumberFormatException exception) {
                         showToast("Please enter a number between 1 to 14");
                         ok = false;
                     }
 
-                    if (!validPh(teethPh[toothNum])) {
+                    if (!validPh(teethPh[tooth])) {
                         showToast("Please enter a number between 1 to 14");
                         ok = false;
                     }
@@ -255,15 +316,15 @@ public class MainActivity extends AppCompatActivity {
                         // Indicate that we are no longer waiting for user input
                         showingInput = false;
 
-                        setToothColor(button, contextInstance, teethPh[toothNum]);
+                        setToothColor(button, contextInstance, teethPh[tooth]);
 
                         // Display pH that user entered
-                        String confirmation = "You entered a pH of " + teethPh[toothNum] + " for tooth " + (toothNum + 1);
+                        String confirmation = "You entered a pH of " + teethPh[tooth] + " for tooth " + (tooth + 1);
                         showToast(confirmation);
 
                         // Make the pH input field invisible
                         phInput.setVisibility(View.INVISIBLE);
-                        pHDisplay(phDisplay, teethPh[toothNum]);
+                        pHDisplay(phDisplay, teethPh[tooth]);
 
                         // Drop the keyboard out of sight
                         closeKeyboard();
@@ -271,6 +332,15 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 return false;
+            }
+        });
+
+        // Display the tooth and the pH once the tooth number is clicked
+        toothNumDisplay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                button.setVisibility(View.VISIBLE);
+                phDisplay.setVisibility(View.VISIBLE);
             }
         });
     }
@@ -305,10 +375,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public boolean validPh(int ph) {
-        if (ph < 1 || ph > 14) {
-            return false;
-        }
-        return true;
+        return ph >= 1 && ph <= 14;
     }
 
     // Set the button color depending on what pH the user has entered for a specific tooth
