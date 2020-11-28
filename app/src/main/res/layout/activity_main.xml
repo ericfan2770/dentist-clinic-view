@@ -8,21 +8,19 @@
     android:background="#cce3ff"
     tools:context=".MainActivity">
 
-    <!--    pH Input Text Edit for the 32 Teeth-->
-
     <EditText
         android:id="@+id/pHInputTooth2"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="352dp"
-        android:layout_marginLeft="352dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="257dp"
+        android:layout_marginLeft="257dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth2" />
 
@@ -30,15 +28,15 @@
         android:id="@+id/pHInputTooth3"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="392dp"
-        android:layout_marginLeft="392dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginLeft="308dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth3" />
 
@@ -46,15 +44,15 @@
         android:id="@+id/pHInputTooth4"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="432dp"
-        android:layout_marginLeft="432dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="354dp"
+        android:layout_marginLeft="354dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth4" />
 
@@ -62,15 +60,15 @@
         android:id="@+id/pHInputTooth5"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="472dp"
-        android:layout_marginLeft="472dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="392dp"
+        android:layout_marginLeft="392dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth5" />
 
@@ -78,15 +76,15 @@
         android:id="@+id/pHInputTooth6"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="512dp"
-        android:layout_marginLeft="512dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="432dp"
+        android:layout_marginLeft="432dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth6" />
 
@@ -94,15 +92,15 @@
         android:id="@+id/pHInputTooth7"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="552dp"
-        android:layout_marginLeft="552dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="471dp"
+        android:layout_marginLeft="471dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth7" />
 
@@ -110,15 +108,15 @@
         android:id="@+id/pHInputTooth8"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="592dp"
-        android:layout_marginLeft="592dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="510dp"
+        android:layout_marginLeft="510dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth8" />
 
@@ -126,15 +124,15 @@
         android:id="@+id/pHInputTooth9"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="632dp"
-        android:layout_marginLeft="632dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="553dp"
+        android:layout_marginLeft="553dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth9" />
 
@@ -142,15 +140,15 @@
         android:id="@+id/pHInputTooth10"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="672dp"
-        android:layout_marginLeft="672dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="592dp"
+        android:layout_marginLeft="592dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth10" />
 
@@ -158,15 +156,15 @@
         android:id="@+id/pHInputTooth11"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="712dp"
-        android:layout_marginLeft="712dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="631dp"
+        android:layout_marginLeft="631dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth11" />
 
@@ -174,15 +172,15 @@
         android:id="@+id/pHInputTooth12"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="752dp"
-        android:layout_marginLeft="752dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="671dp"
+        android:layout_marginLeft="671dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth12" />
 
@@ -190,15 +188,15 @@
         android:id="@+id/pHInputTooth13"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="792dp"
-        android:layout_marginLeft="792dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="710dp"
+        android:layout_marginLeft="710dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth13" />
 
@@ -206,15 +204,15 @@
         android:id="@+id/pHInputTooth14"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="832dp"
-        android:layout_marginLeft="832dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="755dp"
+        android:layout_marginLeft="755dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth14" />
 
@@ -222,15 +220,15 @@
         android:id="@+id/pHInputTooth15"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="872dp"
-        android:layout_marginLeft="872dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="807dp"
+        android:layout_marginLeft="807dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth15" />
 
@@ -238,22 +236,17 @@
         android:id="@+id/pHInputTooth16"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="912dp"
-        android:layout_marginLeft="912dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="854dp"
+        android:layout_marginLeft="854dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth16" />
-
-    <!--    ph Displays for the 32 Teeth-->
-
-    <!--    Image Buttons for the 32 Teeth-->
-
 
     <ImageButton
         android:id="@+id/tooth16"
@@ -265,7 +258,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth15"
-        app:srcCompat="@drawable/d_16" />
+        app:srcCompat="@drawable/d_16"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/toothNumber10"
@@ -342,7 +336,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/d_1" />
+        app:srcCompat="@drawable/d_1"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/toothNumber9"
@@ -393,7 +388,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth12"
-        app:srcCompat="@drawable/d_13" />
+        app:srcCompat="@drawable/d_13"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth5"
@@ -405,7 +401,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth4"
-        app:srcCompat="@drawable/d_5" />
+        app:srcCompat="@drawable/d_5"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth6"
@@ -417,7 +414,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth5"
-        app:srcCompat="@drawable/d_6" />
+        app:srcCompat="@drawable/d_6"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/pHTooth11"
@@ -442,7 +440,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth11"
-        app:srcCompat="@drawable/d_12" />
+        app:srcCompat="@drawable/d_12"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/pHTooth12"
@@ -480,7 +479,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth10"
-        app:srcCompat="@drawable/d_11" />
+        app:srcCompat="@drawable/d_11"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/toothNumber1"
@@ -570,7 +570,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth6"
-        app:srcCompat="@drawable/d_7" />
+        app:srcCompat="@drawable/d_7"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/pHTooth10"
@@ -647,7 +648,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth8"
-        app:srcCompat="@drawable/d_9" />
+        app:srcCompat="@drawable/d_9"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/toothNumber12"
@@ -712,7 +714,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/pHTooth7"
         app:layout_constraintStart_toEndOf="@+id/tooth3"
-        app:srcCompat="@drawable/d_4" />
+        app:srcCompat="@drawable/d_4"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/pHTooth8"
@@ -737,7 +740,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth1"
-        app:srcCompat="@drawable/d_2" />
+        app:srcCompat="@drawable/d_2"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/pHTooth3"
@@ -762,7 +766,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth7"
-        app:srcCompat="@drawable/d_8" />
+        app:srcCompat="@drawable/d_8"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth10"
@@ -774,7 +779,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth9"
-        app:srcCompat="@drawable/d_10" />
+        app:srcCompat="@drawable/d_10"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/toothNumber14"
@@ -799,7 +805,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth2"
-        app:srcCompat="@drawable/d_3" />
+        app:srcCompat="@drawable/d_3"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/pHTooth9"
@@ -837,7 +844,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth13"
-        app:srcCompat="@drawable/d_14" />
+        app:srcCompat="@drawable/d_14"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth15"
@@ -849,7 +857,8 @@
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth14"
-        app:srcCompat="@drawable/d_15" />
+        app:srcCompat="@drawable/d_15"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/pHTooth6"
@@ -868,97 +877,97 @@
         android:id="@+id/pHInputTooth27"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="431dp"
+        android:layout_marginLeft="431dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth27" />
+        app:layout_constraintTop_toTopOf="@+id/tooth27" />
 
     <EditText
         android:id="@+id/pHInputTooth17"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="857dp"
+        android:layout_marginLeft="857dp"
+        android:visibility="gone"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
         android:inputType="textPersonName"
-        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth17" />
+        app:layout_constraintTop_toTopOf="@+id/tooth17" />
 
     <EditText
         android:id="@+id/pHInputTooth28"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="391dp"
+        android:layout_marginLeft="391dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth28" />
+        app:layout_constraintTop_toTopOf="@+id/tooth28" />
 
     <EditText
         android:id="@+id/pHInputTooth18"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="807dp"
+        android:layout_marginLeft="807dp"
+        android:visibility="gone"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
         android:inputType="textPersonName"
-        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth18" />
+        app:layout_constraintTop_toTopOf="@+id/tooth18" />
 
     <EditText
         android:id="@+id/pHInputTooth25"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="510dp"
+        android:layout_marginLeft="510dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth25" />
+        app:layout_constraintTop_toTopOf="@+id/tooth25" />
 
     <EditText
         android:id="@+id/pHInputTooth26"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="470dp"
+        android:layout_marginLeft="470dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth26" />
+        app:layout_constraintTop_toTopOf="@+id/tooth26" />
 
     <ImageButton
         android:id="@+id/tooth25"
@@ -970,7 +979,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth26"
         app:layout_constraintTop_toBottomOf="@+id/tooth8"
-        app:srcCompat="@drawable/d_25" />
+        app:srcCompat="@drawable/d_25"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth29"
@@ -982,7 +992,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth30"
         app:layout_constraintTop_toBottomOf="@+id/tooth4"
-        app:srcCompat="@drawable/d_29" />
+        app:srcCompat="@drawable/d_29"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth32"
@@ -995,7 +1006,8 @@
         android:background="@null"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth1"
-        app:srcCompat="@drawable/d_32" />
+        app:srcCompat="@drawable/d_32"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth28"
@@ -1007,7 +1019,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth29"
         app:layout_constraintTop_toBottomOf="@+id/tooth5"
-        app:srcCompat="@drawable/d_28" />
+        app:srcCompat="@drawable/d_28"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth30"
@@ -1019,7 +1032,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth31"
         app:layout_constraintTop_toBottomOf="@+id/tooth3"
-        app:srcCompat="@drawable/d_30" />
+        app:srcCompat="@drawable/d_30"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth31"
@@ -1029,7 +1043,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth32"
         app:layout_constraintTop_toBottomOf="@+id/tooth2"
-        app:srcCompat="@drawable/d_31" />
+        app:srcCompat="@drawable/d_31"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth27"
@@ -1041,7 +1056,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth28"
         app:layout_constraintTop_toBottomOf="@+id/tooth6"
-        app:srcCompat="@drawable/d_27" />
+        app:srcCompat="@drawable/d_27"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth22"
@@ -1053,7 +1069,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth23"
         app:layout_constraintTop_toBottomOf="@+id/tooth11"
-        app:srcCompat="@drawable/d_22" />
+        app:srcCompat="@drawable/d_22"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth24"
@@ -1065,7 +1082,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth25"
         app:layout_constraintTop_toBottomOf="@+id/tooth9"
-        app:srcCompat="@drawable/d_24" />
+        app:srcCompat="@drawable/d_24"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth18"
@@ -1077,7 +1095,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth19"
         app:layout_constraintTop_toBottomOf="@+id/tooth15"
-        app:srcCompat="@drawable/d_18" />
+        app:srcCompat="@drawable/d_18"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth19"
@@ -1089,7 +1108,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth20"
         app:layout_constraintTop_toBottomOf="@+id/tooth14"
-        app:srcCompat="@drawable/d_19" />
+        app:srcCompat="@drawable/d_19"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth20"
@@ -1101,7 +1121,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth21"
         app:layout_constraintTop_toBottomOf="@+id/tooth13"
-        app:srcCompat="@drawable/d_20" />
+        app:srcCompat="@drawable/d_20"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth21"
@@ -1113,7 +1134,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth22"
         app:layout_constraintTop_toBottomOf="@+id/tooth12"
-        app:srcCompat="@drawable/d_21" />
+        app:srcCompat="@drawable/d_21"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth17"
@@ -1123,7 +1145,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth18"
         app:layout_constraintTop_toBottomOf="@+id/tooth16"
-        app:srcCompat="@drawable/d_17" />
+        app:srcCompat="@drawable/d_17"
+        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:id="@+id/tooth23"
@@ -1135,7 +1158,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth24"
         app:layout_constraintTop_toBottomOf="@+id/tooth10"
-        app:srcCompat="@drawable/d_23" />
+        app:srcCompat="@drawable/d_23"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/toothNumber25"
@@ -1472,7 +1496,8 @@
         android:background="@null"
         app:layout_constraintStart_toEndOf="@+id/tooth27"
         app:layout_constraintTop_toBottomOf="@+id/tooth7"
-        app:srcCompat="@drawable/d_26" />
+        app:srcCompat="@drawable/d_26"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/toothNumber23"
@@ -1569,179 +1594,176 @@
         android:id="@+id/pHInputTooth31"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="257dp"
+        android:layout_marginLeft="257dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth31" />
+        app:layout_constraintTop_toTopOf="@+id/tooth31" />
 
     <EditText
         android:id="@+id/pHInputTooth21"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="672dp"
+        android:layout_marginLeft="672dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
+        android:visibility="gone"
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
         android:inputType="textPersonName"
-        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth21" />
+        app:layout_constraintTop_toTopOf="@+id/tooth21" />
 
     <EditText
         android:id="@+id/pHInputTooth29"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="353dp"
+        android:layout_marginLeft="353dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth29" />
+        app:layout_constraintTop_toTopOf="@+id/tooth29" />
 
     <EditText
         android:id="@+id/pHInputTooth20"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="710dp"
+        android:layout_marginLeft="710dp"
+        android:visibility="gone"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
         android:inputType="textPersonName"
-        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth20" />
+        app:layout_constraintTop_toTopOf="@+id/tooth20" />
 
     <EditText
         android:id="@+id/pHInputTooth30"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="307dp"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth30" />
+        app:layout_constraintTop_toTopOf="@+id/tooth30" />
 
     <EditText
         android:id="@+id/pHInputTooth24"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="553dp"
+        android:layout_marginLeft="553dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth24" />
+        app:layout_constraintTop_toTopOf="@+id/tooth24" />
 
     <EditText
         android:id="@+id/pHInputTooth1"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="209dp"
+        android:layout_marginLeft="209dp"
+        android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="637dp" />
+        app:layout_constraintTop_toBottomOf="@+id/tooth1" />
 
     <EditText
         android:id="@+id/pHInputTooth22"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="631dp"
+        android:layout_marginLeft="631dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth22" />
+        app:layout_constraintTop_toTopOf="@+id/tooth22" />
 
     <EditText
         android:id="@+id/pHInputTooth32"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
-        android:inputType="textPersonName"
         android:visibility="gone"
+        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth32" />
+        app:layout_constraintTop_toTopOf="@+id/tooth32" />
 
     <EditText
         android:id="@+id/pHInputTooth19"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="755dp"
+        android:layout_marginLeft="755dp"
+        android:visibility="gone"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
         android:inputType="textPersonName"
-        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth19" />
+        app:layout_constraintTop_toTopOf="@+id/tooth19" />
 
     <EditText
         android:id="@+id/pHInputTooth23"
         android:layout_width="57dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="592dp"
+        android:layout_marginLeft="592dp"
+        android:layout_marginTop="108dp"
         android:autofillHints=""
         android:ems="10"
+        android:visibility="gone"
         android:gravity="center_horizontal"
         android:hint="@string/_1_14"
         android:inputType="textPersonName"
-        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tooth23" />
-
-
-    <!--    TextView Strings for showing Tooth Number-->
-
+        app:layout_constraintTop_toTopOf="@+id/tooth23" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
