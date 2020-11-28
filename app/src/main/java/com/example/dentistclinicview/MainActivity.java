@@ -9,9 +9,16 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.text.Layout;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.AlignmentSpan;
+import android.view.Gravity;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.View;
 
+import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -31,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
     private int currToothId;
 
     public MainActivity() {
-        toothNum = new int[32];
-        teethPh = new int[32];
-        teethId = new int[32];
-        phInput = new int[32];
-        phId = new int[32];
+        toothNum = new int[NUM_TEETH];
+        teethPh = new int[NUM_TEETH];
+        teethId = new int[NUM_TEETH];
+        phInput = new int[NUM_TEETH];
+        phId = new int[NUM_TEETH];
 
         toothNum[0] = R.id.toothNumber1;
         teethId[0] = R.id.tooth1;
@@ -358,20 +365,22 @@ public class MainActivity extends AppCompatActivity {
         phDisplay.setVisibility(View.VISIBLE);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     public void showToast(String text) {
-        Toast.makeText(MainActivity.this, text, Toast.LENGTH_SHORT).show();
-//        LayoutInflater inflater = getLayoutInflater();
-//        View layout = inflater.inflate(R.layout.custom_toast,
-//                (ViewGroup) findViewById(R.id.custom_toast_container));
-//
-//        TextView textView = (TextView) layout.findViewById(R.id.text);
-//        textView.setText(text);
-//
-//        Toast toast = new Toast(getApplicationContext());
-//        toast.setGravity(Gravity.TOP, 0, 200);
-//        toast.setDuration(Toast.LENGTH_LONG);
-//        toast.setView(layout);
-//        toast.show();
+        //Toast.makeText(MainActivity.this, text, Toast.LENGTH_SHORT).show();
+
+        LayoutInflater inflater = getLayoutInflater();
+        View layout = inflater.inflate(R.layout.custom_toast,
+                (ViewGroup) findViewById(R.id.custom_toast_container));
+
+        TextView textView = (TextView) layout.findViewById(R.id.text);
+        textView.setText(text);
+
+        Toast toast = new Toast(getApplicationContext());
+        toast.setGravity(Gravity.TOP, 0, 250);
+        toast.setDuration(Toast.LENGTH_SHORT);
+        toast.setView(layout);
+        toast.show();
     }
 
     public boolean validPh(int ph) {
