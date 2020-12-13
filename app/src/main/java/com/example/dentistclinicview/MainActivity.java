@@ -13,6 +13,7 @@ import android.text.Layout;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.style.AlignmentSpan;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -20,8 +21,11 @@ import android.view.View;
 
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -31,11 +35,16 @@ public class MainActivity extends AppCompatActivity {
 
     private final int[] toothNum;
     private final int[] teethPh;
-    private final int[] teethId;
+    private final int[] teethId;  // the tooth buttons
+    private final int[] tId;  // the actual teeth, which will become filled
     private final int[] phInput;
     private final int[] phId;
     private boolean showingInput;
     private int currToothId;
+
+    private RadioGroup radioGroup;
+    private RadioButton radioButton;
+    private Button radioSubmit;
 
     public MainActivity() {
         toothNum = new int[NUM_TEETH];
@@ -43,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         teethId = new int[NUM_TEETH];
         phInput = new int[NUM_TEETH];
         phId = new int[NUM_TEETH];
+        tId = new int[NUM_TEETH];
 
         toothNum[0] = R.id.toothNumber1;
         teethId[0] = R.id.tooth1;
@@ -217,6 +227,24 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < NUM_TEETH; i++) {
             handleTooth(i, toothNum[i], teethId[i], phInput[i], phId[i]);
         }
+
+        TextView frontBackTextView = findViewById(R.id.frontBackTextView);
+        radioGroup = (RadioGroup) findViewById(R.id.radioView);
+        radioSubmit = (Button) findViewById(R.id.frontBackButton);
+        radioSubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int selectedId = radioGroup.getCheckedRadioButtonId();
+                radioButton = (RadioButton) findViewById(selectedId);
+                if (radioButton.equals(findViewById(R.id.radioFront))) {
+                    // The front radio button is selected
+                    frontBackTextView.setText("Front View");
+                } else {
+                    // The back radio button is selected
+                    frontBackTextView.setText("Back View");
+                }
+            }
+        });
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -283,6 +311,7 @@ public class MainActivity extends AppCompatActivity {
                             public void onClick(DialogInterface dialog, int id) {
                                 button.setVisibility(View.INVISIBLE);
                                 phDisplay.setVisibility(View.INVISIBLE);
+                                phInput.setVisibility(View.INVISIBLE);
                             }
                         });
 

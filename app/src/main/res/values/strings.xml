@@ -37,4 +37,6 @@
     <string name="_31">31</string>
     <string name="_32">32</string>
     <string name="todo">TODO</string>
+    <string name="radio_front">Front View</string>
+    <string name="radio_back">Back View</string>
 </resources>
