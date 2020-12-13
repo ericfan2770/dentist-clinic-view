@@ -443,8 +443,8 @@ public class MainActivity extends AppCompatActivity {
         textView.setText(text);
 
         Toast toast = new Toast(getApplicationContext());
-        toast.setGravity(Gravity.TOP, 0, 250);
-        toast.setDuration(Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.TOP, 0, 865);
+        toast.setDuration(Toast.LENGTH_LONG);
         toast.setView(layout);
         toast.show();
     }
