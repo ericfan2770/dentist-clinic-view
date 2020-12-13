@@ -342,6 +342,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth8"
         app:srcCompat="@drawable/d_9" />
 
+    <ImageView
+        android:id="@+id/t_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth8"
+        app:srcCompat="@drawable/t_9" />
+
     <TextView
         android:id="@+id/toothNumber6"
         android:layout_width="30dp"
@@ -475,6 +488,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth2"
         app:srcCompat="@drawable/d_3" />
 
+    <ImageView
+        android:id="@+id/t_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth2"
+        app:srcCompat="@drawable/t_3" />
+
     <TextView
         android:id="@+id/pHTooth32"
         android:layout_width="30dp"
@@ -542,6 +568,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/d_1" />
 
+    <ImageView
+        android:id="@+id/t_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="315dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/t_1" />
+
+
+
     <ImageButton
         android:id="@+id/tooth8"
         android:layout_width="wrap_content"
@@ -554,6 +595,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth7"
         app:srcCompat="@drawable/d_8" />
+
+    <ImageView
+        android:id="@+id/t_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth7"
+        app:srcCompat="@drawable/t_8" />
 
     <TextView
         android:id="@+id/toothNumber27"
@@ -713,6 +767,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth6"
         app:srcCompat="@drawable/d_7" />
 
+    <ImageView
+        android:id="@+id/t_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth6"
+        app:srcCompat="@drawable/t_7" />
+
     <TextView
         android:id="@+id/pHTooth9"
         android:layout_width="30dp"
@@ -740,6 +807,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth15"
         app:srcCompat="@drawable/d_16" />
 
+    <ImageView
+        android:id="@+id/t_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth15"
+        app:srcCompat="@drawable/t_16" />
+
     <TextView
         android:id="@+id/toothNumber20"
         android:layout_width="30dp"
@@ -765,6 +845,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth1"
         app:srcCompat="@drawable/d_2" />
+
+    <ImageView
+        android:id="@+id/t_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth1"
+        app:srcCompat="@drawable/t_2" />
 
     <TextView
         android:id="@+id/pHTooth1"
@@ -806,6 +899,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth11"
         app:srcCompat="@drawable/d_12" />
 
+    <ImageView
+        android:id="@+id/t_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth11"
+        app:srcCompat="@drawable/t_12" />
+
     <ImageButton
         android:id="@+id/tooth14"
         android:layout_width="wrap_content"
@@ -818,6 +924,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth13"
         app:srcCompat="@drawable/d_14" />
+
+    <ImageView
+        android:id="@+id/t_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth13"
+        app:srcCompat="@drawable/t_14" />
 
     <TextView
         android:id="@+id/pHTooth28"
@@ -845,6 +964,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth10"
         app:srcCompat="@drawable/d_11" />
+
+    <ImageView
+        android:id="@+id/t_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth10"
+        app:srcCompat="@drawable/t_11" />
 
     <TextView
         android:id="@+id/toothNumber12"
@@ -913,6 +1045,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth3"
         app:srcCompat="@drawable/d_4" />
 
+    <ImageView
+        android:id="@+id/t_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth3"
+        app:srcCompat="@drawable/t_4" />
+
     <TextView
         android:id="@+id/pHTooth5"
         android:layout_width="30dp"
@@ -939,6 +1084,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth12"
         app:srcCompat="@drawable/d_13" />
+
+    <ImageView
+        android:id="@+id/t_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth12"
+        app:srcCompat="@drawable/t_13" />
 
     <TextView
         android:id="@+id/pHTooth15"
@@ -1048,6 +1206,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth5"
         app:srcCompat="@drawable/d_6" />
 
+    <ImageView
+        android:id="@+id/t_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth5"
+        app:srcCompat="@drawable/t_6" />
+
     <TextView
         android:id="@+id/toothNumber3"
         android:layout_width="30dp"
@@ -1073,6 +1244,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth4"
         app:srcCompat="@drawable/d_5" />
+
+    <ImageView
+        android:id="@+id/t_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth4"
+        app:srcCompat="@drawable/t_5" />
 
     <TextView
         android:id="@+id/pHTooth14"
@@ -1125,6 +1309,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth9"
         app:srcCompat="@drawable/d_10" />
+
+    <ImageView
+        android:id="@+id/t_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth9"
+        app:srcCompat="@drawable/t_10" />
 
     <TextView
         android:id="@+id/pHTooth30"
@@ -1213,7 +1410,6 @@
         android:id="@+id/tooth32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginStart="300dp"
         android:layout_marginLeft="300dp"
         android:layout_marginTop="550dp"
@@ -1222,6 +1418,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_32" />
+
+    <ImageView
+        android:id="@+id/t_32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_32" />
 
     <ImageButton
         android:id="@+id/tooth31"
@@ -1236,6 +1445,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_31" />
 
+    <ImageView
+        android:id="@+id/t_31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth32"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_31" />
+
     <ImageButton
         android:id="@+id/tooth23"
         android:layout_width="wrap_content"
@@ -1248,6 +1470,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth24"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_23" />
+
+    <ImageView
+        android:id="@+id/t_23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth24"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_23" />
 
     <ImageButton
         android:id="@+id/tooth21"
@@ -1262,6 +1497,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_21" />
 
+    <ImageView
+        android:id="@+id/t_21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth22"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_21" />
+
     <ImageButton
         android:id="@+id/tooth17"
         android:layout_width="wrap_content"
@@ -1274,6 +1522,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth18"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_17" />
+
+    <ImageView
+        android:id="@+id/t_17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_17" />
 
     <ImageButton
         android:id="@+id/tooth25"
@@ -1288,6 +1549,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_25" />
 
+    <ImageView
+        android:id="@+id/t_25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth26"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_25" />
+
     <ImageButton
         android:id="@+id/tooth30"
         android:layout_width="wrap_content"
@@ -1300,6 +1574,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth31"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_30" />
+
+    <ImageView
+        android:id="@+id/t_30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth31"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_30" />
 
     <ImageButton
         android:id="@+id/tooth19"
@@ -1314,6 +1601,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_19" />
 
+    <ImageView
+        android:id="@+id/t_19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth20"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_19" />
+
     <ImageButton
         android:id="@+id/tooth27"
         android:layout_width="wrap_content"
@@ -1326,6 +1626,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth28"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_27" />
+
+    <ImageView
+        android:id="@+id/t_27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth28"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_27" />
 
     <ImageButton
         android:id="@+id/tooth28"
@@ -1340,6 +1653,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_28" />
 
+    <ImageView
+        android:id="@+id/t_28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth29"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_28" />
+
     <ImageButton
         android:id="@+id/tooth18"
         android:layout_width="wrap_content"
@@ -1352,6 +1678,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth19"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_18" />
+
+    <ImageView
+        android:id="@+id/t_18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth19"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_18" />
 
     <ImageButton
         android:id="@+id/tooth24"
@@ -1366,6 +1705,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_24" />
 
+    <ImageView
+        android:id="@+id/t_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth25"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_24" />
+
     <ImageButton
         android:id="@+id/tooth26"
         android:layout_width="wrap_content"
@@ -1378,6 +1730,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth27"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_26" />
+
+    <ImageView
+        android:id="@+id/t_26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth27"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_26" />
 
     <ImageButton
         android:id="@+id/tooth20"
@@ -1392,6 +1757,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_20" />
 
+    <ImageView
+        android:id="@+id/t_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth21"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_20" />
+
     <ImageButton
         android:id="@+id/tooth22"
         android:layout_width="wrap_content"
@@ -1405,6 +1783,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_22" />
 
+    <ImageView
+        android:id="@+id/t_22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth23"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_22" />
+
     <ImageButton
         android:id="@+id/tooth29"
         android:layout_width="wrap_content"
@@ -1417,6 +1808,19 @@
         app:layout_constraintStart_toEndOf="@+id/tooth30"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_29" />
+
+    <ImageView
+        android:id="@+id/t_29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth30"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_29" />
 
     <TextView
         android:id="@+id/pHTooth17"
@@ -1472,6 +1876,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth14"
         app:srcCompat="@drawable/d_15" />
+
+    <ImageView
+        android:id="@+id/t_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth14"
+        app:srcCompat="@drawable/t_15" />
 
     <TextView
         android:id="@+id/pHTooth3"
