@@ -26,6 +26,23 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth2" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth2"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="352dp"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_2" />
+
+    <EditText
         android:id="@+id/pHInputTooth3"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -41,6 +58,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth3" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth3"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_3" />
 
     <EditText
         android:id="@+id/pHInputTooth4"
@@ -60,6 +94,23 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth4" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth4"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="444dp"
+        android:layout_marginLeft="444dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_4" />
+
+    <EditText
         android:id="@+id/pHInputTooth5"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -75,6 +126,24 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth5" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth5"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="480dp"
+        android:layout_marginLeft="480dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_5" />
+
 
     <EditText
         android:id="@+id/pHInputTooth6"
@@ -94,6 +163,23 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth6" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth6"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="516dp"
+        android:layout_marginLeft="516dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_6" />
+
+    <EditText
         android:id="@+id/pHInputTooth7"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -109,6 +195,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth7" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth7"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="552dp"
+        android:layout_marginLeft="552dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_7" />
 
     <EditText
         android:id="@+id/pHInputTooth8"
@@ -128,6 +231,23 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth8" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth8"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="592dp"
+        android:layout_marginLeft="592dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_8" />
+
+    <EditText
         android:id="@+id/pHInputTooth9"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -143,6 +263,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth9" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth9"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="632dp"
+        android:layout_marginLeft="632dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_9" />
 
     <EditText
         android:id="@+id/pHInputTooth10"
@@ -162,6 +299,23 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth10" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth10"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="668dp"
+        android:layout_marginLeft="668dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_10" />
+
+    <EditText
         android:id="@+id/pHInputTooth11"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -177,6 +331,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth11" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth11"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="704dp"
+        android:layout_marginLeft="704dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_11" />
 
     <EditText
         android:id="@+id/pHInputTooth12"
@@ -196,6 +367,23 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth12" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth12"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="744dp"
+        android:layout_marginLeft="744dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_12" />
+
+    <EditText
         android:id="@+id/pHInputTooth13"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -211,6 +399,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth13" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth13"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="780dp"
+        android:layout_marginLeft="780dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_13" />
 
     <EditText
         android:id="@+id/pHInputTooth14"
@@ -230,6 +435,23 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth14" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth14"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="824dp"
+        android:layout_marginLeft="824dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_14" />
+
+    <EditText
         android:id="@+id/pHInputTooth15"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -245,6 +467,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth15" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth15"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="872dp"
+        android:layout_marginLeft="872dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_15" />
 
     <EditText
         android:id="@+id/pHInputTooth16"
@@ -263,8 +502,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth16" />
 
+    <EditText
+        android:id="@+id/back_pHInputTooth16"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="920dp"
+        android:layout_marginLeft="920dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_16" />
+
     <TextView
-        android:id="@+id/toothNumber8"
+        android:id="@+id/frontToothNumber8"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="604dp"
@@ -274,6 +530,20 @@
         android:text="@string/_8"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/tooth8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber8"
+        android:layout_width="30dp"
+        android:visibility="gone"
+        android:layout_height="42dp"
+        android:layout_marginStart="604dp"
+        android:layout_marginLeft="604dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:text="@string/_8"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_8"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -291,6 +561,20 @@
         app:layout_constraintTop_toTopOf="@+id/tooth24" />
 
     <TextView
+        android:id="@+id/back_pHTooth24"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth25"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_24" />
+
+    <TextView
         android:id="@+id/pHTooth10"
         android:layout_width="30dp"
         android:layout_height="42dp"
@@ -305,6 +589,20 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth10" />
 
     <TextView
+        android:id="@+id/back_pHTooth10"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="680dp"
+        android:layout_marginLeft="680dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_10" />
+
+    <TextView
         android:id="@+id/pHTooth25"
         android:layout_width="30dp"
         android:layout_height="42dp"
@@ -317,7 +615,19 @@
         app:layout_constraintTop_toTopOf="@+id/tooth25" />
 
     <TextView
-        android:id="@+id/toothNumber30"
+        android:id="@+id/back_pHTooth25"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth26"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_25" />
+
+    <TextView
+        android:id="@+id/frontToothNumber30"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="424dp"
@@ -327,6 +637,20 @@
         android:text="@string/_30"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/tooth30"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber30"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="424dp"
+        android:layout_marginLeft="424dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_30"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_30"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
@@ -342,6 +666,20 @@
         app:layout_constraintStart_toEndOf="@+id/tooth8"
         app:srcCompat="@drawable/d_9" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_8"
+        app:srcCompat="@drawable/d_9" />
+
     <ImageView
         android:id="@+id/t_9"
         android:layout_width="wrap_content"
@@ -355,8 +693,22 @@
         app:layout_constraintStart_toEndOf="@+id/tooth8"
         app:srcCompat="@drawable/t_9" />
 
+    <ImageView
+        android:id="@+id/t_back_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_8"
+        app:srcCompat="@drawable/t_9" />
+
     <TextView
-        android:id="@+id/toothNumber6"
+        android:id="@+id/frontToothNumber6"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="532dp"
@@ -366,6 +718,20 @@
         android:text="@string/_6"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/tooth6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber6"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="532dp"
+        android:layout_marginLeft="532dp"
+        android:layout_marginBottom="112dp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="@string/_6"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_6"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -383,7 +749,21 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth12" />
 
     <TextView
-        android:id="@+id/toothNumber10"
+        android:id="@+id/back_pHTooth12"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="756dp"
+        android:layout_marginLeft="756dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_12" />
+
+    <TextView
+        android:id="@+id/frontToothNumber10"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="684dp"
@@ -396,7 +776,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber15"
+        android:id="@+id/backToothNumber10"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="684dp"
+        android:layout_marginLeft="684dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:text="@string/_10"
+        android:visibility="gone"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_10"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber15"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="888dp"
@@ -409,7 +803,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber2"
+        android:id="@+id/backToothNumber15"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="888dp"
+        android:layout_marginLeft="888dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:text="@string/_15"
+        android:visibility="gone"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_15"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber2"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="364dp"
@@ -419,6 +827,20 @@
         android:text="@string/_2"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/tooth2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber2"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="364dp"
+        android:layout_marginLeft="364dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/_2"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_2"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -436,7 +858,21 @@
         app:layout_constraintTop_toTopOf="@+id/tooth29" />
 
     <TextView
-        android:id="@+id/toothNumber25"
+        android:id="@+id/back_pHTooth29"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth30"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_29" />
+
+    <TextView
+        android:id="@+id/frontToothNumber25"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="608dp"
@@ -446,6 +882,20 @@
         android:text="@string/_25"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/tooth25"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber25"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="608dp"
+        android:layout_marginLeft="608dp"
+        android:visibility="gone"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_25"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_25"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -463,7 +913,21 @@
         app:layout_constraintTop_toTopOf="@+id/tooth26" />
 
     <TextView
-        android:id="@+id/toothNumber29"
+        android:id="@+id/back_pHTooth26"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth27"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_26" />
+
+    <TextView
+        android:id="@+id/frontToothNumber29"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="472dp"
@@ -473,6 +937,20 @@
         android:text="@string/_29"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/tooth29"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber29"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="472dp"
+        android:layout_marginLeft="472dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_29"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_29"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
@@ -488,6 +966,20 @@
         app:layout_constraintStart_toEndOf="@+id/tooth2"
         app:srcCompat="@drawable/d_3" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_2"
+        app:srcCompat="@drawable/d_3" />
+
     <ImageView
         android:id="@+id/t_3"
         android:layout_width="wrap_content"
@@ -499,6 +991,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth2"
+        app:srcCompat="@drawable/t_3" />
+
+    <ImageView
+        android:id="@+id/t_back_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_2"
         app:srcCompat="@drawable/t_3" />
 
     <TextView
@@ -516,7 +1022,21 @@
         app:layout_constraintTop_toTopOf="@+id/tooth32" />
 
     <TextView
-        android:id="@+id/toothNumber18"
+        android:id="@+id/back_pHTooth32"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="312dp"
+        android:layout_marginLeft="312dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_32" />
+
+    <TextView
+        android:id="@+id/frontToothNumber18"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="880dp"
@@ -529,7 +1049,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber28"
+        android:id="@+id/backToothNumber18"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="880dp"
+        android:layout_marginLeft="880dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_18"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_18"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber28"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="512dp"
@@ -539,6 +1073,20 @@
         android:text="@string/_28"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/tooth28"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber28"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="512dp"
+        android:layout_marginLeft="512dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_28"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_28"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -555,6 +1103,20 @@
         app:layout_constraintStart_toEndOf="@+id/pHTooth28"
         app:layout_constraintTop_toTopOf="@+id/tooth27" />
 
+    <TextView
+        android:id="@+id/back_pHTooth27"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth28"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_27" />
+
     <ImageButton
         android:id="@+id/tooth1"
         android:layout_width="wrap_content"
@@ -563,6 +1125,20 @@
         android:layout_marginLeft="315dp"
         android:layout_marginBottom="550dp"
         android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/d_1" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="315dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -581,7 +1157,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/t_1" />
 
-
+    <ImageView
+        android:id="@+id/t_back_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="315dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/t_1" />
 
     <ImageButton
         android:id="@+id/tooth8"
@@ -594,6 +1182,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth7"
+        app:srcCompat="@drawable/d_8" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_7"
         app:srcCompat="@drawable/d_8" />
 
     <ImageView
@@ -609,8 +1211,22 @@
         app:layout_constraintStart_toEndOf="@+id/tooth7"
         app:srcCompat="@drawable/t_8" />
 
+    <ImageView
+        android:id="@+id/t_back_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_7"
+        app:srcCompat="@drawable/t_8" />
+
     <TextView
-        android:id="@+id/toothNumber27"
+        android:id="@+id/frontToothNumber27"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="544dp"
@@ -623,7 +1239,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber1"
+        android:id="@+id/backToothNumber27"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="544dp"
+        android:layout_marginLeft="544dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_27"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_27"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber1"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="320dp"
@@ -636,7 +1266,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber7"
+        android:id="@+id/backToothNumber1"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/_1"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber7"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="568dp"
@@ -646,6 +1290,20 @@
         android:text="@string/_7"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/tooth7"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber7"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="568dp"
+        android:layout_marginLeft="568dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:text="@string/_7"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_7"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -663,7 +1321,21 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth4" />
 
     <TextView
-        android:id="@+id/toothNumber16"
+        android:id="@+id/back_pHTooth4"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="456dp"
+        android:layout_marginLeft="456dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_4" />
+
+    <TextView
+        android:id="@+id/frontToothNumber16"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="932dp"
@@ -673,6 +1345,20 @@
         android:text="@string/_16"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/tooth16"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber16"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="932dp"
+        android:layout_marginLeft="932dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/_16"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_16"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -690,7 +1376,21 @@
         app:layout_constraintTop_toTopOf="@+id/tooth21" />
 
     <TextView
-        android:id="@+id/toothNumber31"
+        android:id="@+id/back_pHTooth21"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth22"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_21" />
+
+    <TextView
+        android:id="@+id/frontToothNumber31"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="368dp"
@@ -703,7 +1403,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber9"
+        android:id="@+id/backToothNumber31"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="368dp"
+        android:layout_marginLeft="368dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_31"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_31"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber9"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="644dp"
@@ -716,7 +1430,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber19"
+        android:id="@+id/backToothNumber9"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="644dp"
+        android:layout_marginLeft="644dp"
+        android:visibility="gone"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:text="@string/_9"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_9"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber19"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="820dp"
@@ -729,7 +1457,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber5"
+        android:id="@+id/backToothNumber19"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="820dp"
+        android:layout_marginLeft="820dp"
+        android:layout_marginBottom="24dp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="@string/_19"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_19"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber5"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="492dp"
@@ -742,7 +1484,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber13"
+        android:id="@+id/backToothNumber5"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="492dp"
+        android:layout_marginLeft="492dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/_5"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber13"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="792dp"
@@ -752,6 +1508,20 @@
         android:text="@string/_13"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/tooth13"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber13"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="792dp"
+        android:layout_marginLeft="792dp"
+        android:layout_marginBottom="112dp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="@string/_13"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_13"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
@@ -767,6 +1537,20 @@
         app:layout_constraintStart_toEndOf="@+id/tooth6"
         app:srcCompat="@drawable/d_7" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_6"
+        app:srcCompat="@drawable/d_7" />
+
     <ImageView
         android:id="@+id/t_7"
         android:layout_width="wrap_content"
@@ -778,6 +1562,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth6"
+        app:srcCompat="@drawable/t_7" />
+
+    <ImageView
+        android:id="@+id/t_back_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_6"
         app:srcCompat="@drawable/t_7" />
 
     <TextView
@@ -794,6 +1592,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth9" />
 
+    <TextView
+        android:id="@+id/back_pHTooth9"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="644dp"
+        android:layout_marginLeft="644dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_9" />
+
     <ImageButton
         android:id="@+id/tooth16"
         android:layout_width="wrap_content"
@@ -805,6 +1617,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth15"
+        app:srcCompat="@drawable/d_16" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_15"
         app:srcCompat="@drawable/d_16" />
 
     <ImageView
@@ -820,8 +1646,22 @@
         app:layout_constraintStart_toEndOf="@+id/tooth15"
         app:srcCompat="@drawable/t_16" />
 
+    <ImageView
+        android:id="@+id/t_back_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_15"
+        app:srcCompat="@drawable/t_16" />
+
     <TextView
-        android:id="@+id/toothNumber20"
+        android:id="@+id/frontToothNumber20"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="776dp"
@@ -831,6 +1671,20 @@
         android:text="@string/_20"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/tooth20"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber20"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="776dp"
+        android:visibility="gone"
+        android:layout_marginLeft="776dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_20"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_20"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
@@ -846,6 +1700,20 @@
         app:layout_constraintStart_toEndOf="@+id/tooth1"
         app:srcCompat="@drawable/d_2" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_1"
+        app:srcCompat="@drawable/d_2" />
+
     <ImageView
         android:id="@+id/t_2"
         android:layout_width="wrap_content"
@@ -857,6 +1725,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth1"
+        app:srcCompat="@drawable/t_2" />
+
+    <ImageView
+        android:id="@+id/t_back_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_1"
         app:srcCompat="@drawable/t_2" />
 
     <TextView
@@ -874,7 +1756,21 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth1" />
 
     <TextView
-        android:id="@+id/toothNumber32"
+        android:id="@+id/back_pHTooth1"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_1" />
+
+    <TextView
+        android:id="@+id/frontToothNumber32"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="312dp"
@@ -884,6 +1780,20 @@
         android:text="@string/_32"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/tooth32"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber32"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginLeft="312dp"
+        android:layout_marginBottom="24dp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="@string/_32"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_32"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
@@ -899,6 +1809,20 @@
         app:layout_constraintStart_toEndOf="@+id/tooth11"
         app:srcCompat="@drawable/d_12" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_11"
+        app:srcCompat="@drawable/d_12" />
+
     <ImageView
         android:id="@+id/t_12"
         android:layout_width="wrap_content"
@@ -910,6 +1834,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth11"
+        app:srcCompat="@drawable/t_12" />
+
+    <ImageView
+        android:id="@+id/t_back_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_11"
         app:srcCompat="@drawable/t_12" />
 
     <ImageButton
@@ -925,6 +1863,20 @@
         app:layout_constraintStart_toEndOf="@+id/tooth13"
         app:srcCompat="@drawable/d_14" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_13"
+        app:srcCompat="@drawable/d_14" />
+
     <ImageView
         android:id="@+id/t_14"
         android:layout_width="wrap_content"
@@ -936,6 +1888,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth13"
+        app:srcCompat="@drawable/t_14" />
+
+    <ImageView
+        android:id="@+id/t_back_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_13"
         app:srcCompat="@drawable/t_14" />
 
     <TextView
@@ -952,6 +1918,20 @@
         app:layout_constraintStart_toEndOf="@+id/pHTooth29"
         app:layout_constraintTop_toTopOf="@+id/tooth28" />
 
+    <TextView
+        android:id="@+id/back_pHTooth28"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth29"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_28" />
+
     <ImageButton
         android:id="@+id/tooth11"
         android:layout_width="wrap_content"
@@ -963,6 +1943,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth10"
+        app:srcCompat="@drawable/d_11" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_10"
         app:srcCompat="@drawable/d_11" />
 
     <ImageView
@@ -978,8 +1972,22 @@
         app:layout_constraintStart_toEndOf="@+id/tooth10"
         app:srcCompat="@drawable/t_11" />
 
+    <ImageView
+        android:id="@+id/t_back_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_10"
+        app:srcCompat="@drawable/t_11" />
+
     <TextView
-        android:id="@+id/toothNumber12"
+        android:id="@+id/frontToothNumber12"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="756dp"
@@ -992,7 +2000,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber11"
+        android:id="@+id/backToothNumber12"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="756dp"
+        android:layout_marginLeft="756dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:text="@string/_12"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_12"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber11"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="720dp"
@@ -1002,6 +2024,20 @@
         android:text="@string/_11"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/tooth11"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber11"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="720dp"
+        android:layout_marginLeft="720dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:text="@string/_11"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_11"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -1019,6 +2055,20 @@
         app:layout_constraintTop_toTopOf="@+id/tooth18" />
 
     <TextView
+        android:id="@+id/back_pHTooth18"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth19"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_18" />
+
+    <TextView
         android:id="@+id/pHTooth20"
         android:layout_width="30dp"
         android:layout_height="42dp"
@@ -1031,6 +2081,20 @@
         android:textSize="22sp"
         app:layout_constraintStart_toEndOf="@+id/pHTooth21"
         app:layout_constraintTop_toTopOf="@+id/tooth20" />
+
+    <TextView
+        android:id="@+id/back_pHTooth20"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth21"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_20" />
 
     <ImageButton
         android:id="@+id/tooth4"
@@ -1045,6 +2109,20 @@
         app:layout_constraintStart_toEndOf="@+id/tooth3"
         app:srcCompat="@drawable/d_4" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_3"
+        app:srcCompat="@drawable/d_4" />
+
     <ImageView
         android:id="@+id/t_4"
         android:layout_width="wrap_content"
@@ -1056,6 +2134,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth3"
+        app:srcCompat="@drawable/t_4" />
+
+    <ImageView
+        android:id="@+id/t_back_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_3"
         app:srcCompat="@drawable/t_4" />
 
     <TextView
@@ -1072,6 +2164,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth5" />
 
+    <TextView
+        android:id="@+id/back_pHTooth5"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="492dp"
+        android:layout_marginLeft="492dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_5" />
+
     <ImageButton
         android:id="@+id/tooth13"
         android:layout_width="wrap_content"
@@ -1085,6 +2191,21 @@
         app:layout_constraintStart_toEndOf="@+id/tooth12"
         app:srcCompat="@drawable/d_13" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_12"
+        app:srcCompat="@drawable/d_13" />
+
+
     <ImageView
         android:id="@+id/t_13"
         android:layout_width="wrap_content"
@@ -1096,6 +2217,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth12"
+        app:srcCompat="@drawable/t_13" />
+
+    <ImageView
+        android:id="@+id/t_back_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:visibility="gone"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_12"
         app:srcCompat="@drawable/t_13" />
 
     <TextView
@@ -1113,6 +2248,20 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth15" />
 
     <TextView
+        android:id="@+id/back_pHTooth15"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="888dp"
+        android:layout_marginLeft="888dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_15" />
+
+    <TextView
         android:id="@+id/pHTooth6"
         android:layout_width="30dp"
         android:layout_height="42dp"
@@ -1127,7 +2276,21 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth6" />
 
     <TextView
-        android:id="@+id/toothNumber14"
+        android:id="@+id/back_pHTooth6"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="532dp"
+        android:layout_marginLeft="532dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_6" />
+
+    <TextView
+        android:id="@+id/frontToothNumber14"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="836dp"
@@ -1137,6 +2300,20 @@
         android:text="@string/_14"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/tooth14"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber14"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="836dp"
+        android:layout_marginLeft="836dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/_14"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_14"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -1154,7 +2331,21 @@
         app:layout_constraintTop_toTopOf="@+id/tooth31" />
 
     <TextView
-        android:id="@+id/toothNumber26"
+        android:id="@+id/back_pHTooth31"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth32"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_31" />
+
+    <TextView
+        android:id="@+id/frontToothNumber26"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="576dp"
@@ -1167,7 +2358,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber4"
+        android:id="@+id/backToothNumber26"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="576dp"
+        android:layout_marginLeft="576dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_26"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_26"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber4"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="456dp"
@@ -1177,6 +2382,20 @@
         android:text="@string/_4"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/tooth4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber4"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="456dp"
+        android:layout_marginLeft="456dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/_4"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_4"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -1193,6 +2412,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth13" />
 
+    <TextView
+        android:id="@+id/back_pHTooth13"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="792dp"
+        android:layout_marginLeft="792dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_13" />
+
     <ImageButton
         android:id="@+id/tooth6"
         android:layout_width="wrap_content"
@@ -1204,6 +2437,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth5"
+        app:srcCompat="@drawable/d_6" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_5"
         app:srcCompat="@drawable/d_6" />
 
     <ImageView
@@ -1219,8 +2466,22 @@
         app:layout_constraintStart_toEndOf="@+id/tooth5"
         app:srcCompat="@drawable/t_6" />
 
+    <ImageView
+        android:id="@+id/t_back_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_5"
+        app:srcCompat="@drawable/t_6" />
+
     <TextView
-        android:id="@+id/toothNumber3"
+        android:id="@+id/frontToothNumber3"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="412dp"
@@ -1230,6 +2491,20 @@
         android:text="@string/_3"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/tooth3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber3"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="412dp"
+        android:layout_marginLeft="412dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:text="@string/_3"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tooth_back_3"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
@@ -1245,6 +2520,20 @@
         app:layout_constraintStart_toEndOf="@+id/tooth4"
         app:srcCompat="@drawable/d_5" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_4"
+        app:srcCompat="@drawable/d_5" />
+
     <ImageView
         android:id="@+id/t_5"
         android:layout_width="wrap_content"
@@ -1256,6 +2545,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth4"
+        app:srcCompat="@drawable/t_5" />
+
+    <ImageView
+        android:id="@+id/t_back_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_4"
         app:srcCompat="@drawable/t_5" />
 
     <TextView
@@ -1273,6 +2576,20 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth14" />
 
     <TextView
+        android:id="@+id/back_pHTooth14"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="840dp"
+        android:layout_marginLeft="840dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_14" />
+
+    <TextView
         android:id="@+id/pHTooth23"
         android:layout_width="30dp"
         android:layout_height="42dp"
@@ -1285,7 +2602,19 @@
         app:layout_constraintTop_toTopOf="@+id/tooth23" />
 
     <TextView
-        android:id="@+id/toothNumber23"
+        android:id="@+id/back_pHTooth23"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth24"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_23" />
+
+    <TextView
+        android:id="@+id/frontToothNumber23"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="672dp"
@@ -1295,6 +2624,20 @@
         android:text="@string/_23"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/tooth23"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber23"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="672dp"
+        android:layout_marginLeft="672dp"
+        android:layout_marginBottom="24dp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="@string/_23"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_23"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
@@ -1310,6 +2653,20 @@
         app:layout_constraintStart_toEndOf="@+id/tooth9"
         app:srcCompat="@drawable/d_10" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_9"
+        app:srcCompat="@drawable/d_10" />
+
     <ImageView
         android:id="@+id/t_10"
         android:layout_width="wrap_content"
@@ -1321,6 +2678,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth9"
+        app:srcCompat="@drawable/t_10" />
+
+    <ImageView
+        android:id="@+id/t_back_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_9"
         app:srcCompat="@drawable/t_10" />
 
     <TextView
@@ -1338,6 +2709,20 @@
         app:layout_constraintTop_toTopOf="@+id/tooth30" />
 
     <TextView
+        android:id="@+id/back_pHTooth30"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth31"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_30" />
+
+    <TextView
         android:id="@+id/pHTooth19"
         android:layout_width="30dp"
         android:layout_height="42dp"
@@ -1352,7 +2737,21 @@
         app:layout_constraintTop_toTopOf="@+id/tooth19" />
 
     <TextView
-        android:id="@+id/toothNumber22"
+        android:id="@+id/back_pHTooth19"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth20"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_19" />
+
+    <TextView
+        android:id="@+id/frontToothNumber22"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="704dp"
@@ -1362,6 +2761,20 @@
         android:text="@string/_22"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/tooth22"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber22"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="704dp"
+        android:layout_marginLeft="704dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_22"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_22"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -1379,6 +2792,20 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth2" />
 
     <TextView
+        android:id="@+id/back_pHTooth2"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="364dp"
+        android:layout_marginLeft="364dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_2" />
+
+    <TextView
         android:id="@+id/pHTooth8"
         android:layout_width="30dp"
         android:layout_height="42dp"
@@ -1391,6 +2818,20 @@
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth8" />
+
+    <TextView
+        android:id="@+id/back_pHTooth8"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="604dp"
+        android:layout_marginLeft="604dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_8" />
 
     <TextView
         android:id="@+id/pHTooth16"
@@ -1406,6 +2847,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth16" />
 
+    <TextView
+        android:id="@+id/back_pHTooth16"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="932dp"
+        android:layout_marginLeft="932dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_16" />
+
+
     <ImageButton
         android:id="@+id/tooth32"
         android:layout_width="wrap_content"
@@ -1414,6 +2870,20 @@
         android:layout_marginLeft="300dp"
         android:layout_marginTop="550dp"
         android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_32" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1432,6 +2902,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_32" />
 
+    <ImageView
+        android:id="@+id/t_back_32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_32" />
+
     <ImageButton
         android:id="@+id/tooth31"
         android:layout_width="wrap_content"
@@ -1442,6 +2926,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth32"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_31" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_32"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_31" />
 
@@ -1458,6 +2956,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_31" />
 
+    <ImageView
+        android:id="@+id/t_back_31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_32"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_31" />
+
     <ImageButton
         android:id="@+id/tooth23"
         android:layout_width="wrap_content"
@@ -1468,6 +2980,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth24"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_23" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_24"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_23" />
 
@@ -1484,6 +3010,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_23" />
 
+    <ImageView
+        android:id="@+id/t_back_23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_24"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_23" />
+
     <ImageButton
         android:id="@+id/tooth21"
         android:layout_width="wrap_content"
@@ -1494,6 +3034,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth22"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_21" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_22"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_21" />
 
@@ -1510,6 +3064,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_21" />
 
+    <ImageView
+        android:id="@+id/t_back_21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_22"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_21" />
+
     <ImageButton
         android:id="@+id/tooth17"
         android:layout_width="wrap_content"
@@ -1520,6 +3088,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_17" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_18"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_17" />
 
@@ -1536,6 +3118,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_17" />
 
+    <ImageView
+        android:id="@+id/t_back_17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_17" />
+
     <ImageButton
         android:id="@+id/tooth25"
         android:layout_width="wrap_content"
@@ -1546,6 +3142,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth26"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_25" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_26"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_25" />
 
@@ -1562,6 +3172,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_25" />
 
+    <ImageView
+        android:id="@+id/t_back_25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_26"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_25" />
+
     <ImageButton
         android:id="@+id/tooth30"
         android:layout_width="wrap_content"
@@ -1572,6 +3196,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth31"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_30" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_31"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_30" />
 
@@ -1588,6 +3226,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_30" />
 
+    <ImageView
+        android:id="@+id/t_back_30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_31"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_30" />
+
     <ImageButton
         android:id="@+id/tooth19"
         android:layout_width="wrap_content"
@@ -1598,6 +3250,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth20"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_19" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_20"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_19" />
 
@@ -1614,6 +3280,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_19" />
 
+    <ImageView
+        android:id="@+id/t_back_19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_20"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_19" />
+
     <ImageButton
         android:id="@+id/tooth27"
         android:layout_width="wrap_content"
@@ -1624,6 +3304,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth28"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_27" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_28"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_27" />
 
@@ -1640,6 +3334,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_27" />
 
+    <ImageView
+        android:id="@+id/t_back_27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_28"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_27" />
+
     <ImageButton
         android:id="@+id/tooth28"
         android:layout_width="wrap_content"
@@ -1650,6 +3358,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth29"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_28" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_29"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_28" />
 
@@ -1666,6 +3388,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_28" />
 
+    <ImageView
+        android:id="@+id/t_back_28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_29"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_28" />
+
     <ImageButton
         android:id="@+id/tooth18"
         android:layout_width="wrap_content"
@@ -1676,6 +3412,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth19"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_18" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_19"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_18" />
 
@@ -1692,6 +3442,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_18" />
 
+    <ImageView
+        android:id="@+id/t_back_18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_19"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_18" />
+
     <ImageButton
         android:id="@+id/tooth24"
         android:layout_width="wrap_content"
@@ -1702,6 +3466,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth25"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_24" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_25"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_24" />
 
@@ -1718,6 +3496,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_24" />
 
+    <ImageView
+        android:id="@+id/t_back_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_25"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_24" />
+
     <ImageButton
         android:id="@+id/tooth26"
         android:layout_width="wrap_content"
@@ -1728,6 +3520,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth27"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_26" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_27"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_26" />
 
@@ -1744,6 +3550,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_26" />
 
+    <ImageView
+        android:id="@+id/t_back_26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_27"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_26" />
+
     <ImageButton
         android:id="@+id/tooth20"
         android:layout_width="wrap_content"
@@ -1754,6 +3574,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth21"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_20" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_21"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_20" />
 
@@ -1770,6 +3604,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_20" />
 
+    <ImageView
+        android:id="@+id/t_back_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_21"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_20" />
+
     <ImageButton
         android:id="@+id/tooth22"
         android:layout_width="wrap_content"
@@ -1780,6 +3628,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth23"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_22" />
+
+    <ImageButton
+        android:id="@+id/tooth_back_22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_23"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_22" />
 
@@ -1796,6 +3658,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_22" />
 
+    <ImageView
+        android:id="@+id/t_back_22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_23"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_22" />
+
     <ImageButton
         android:id="@+id/tooth29"
         android:layout_width="wrap_content"
@@ -1809,6 +3685,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d_29" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:visibility="gone"
+        android:background="@null"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_30"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d_29" />
+
     <ImageView
         android:id="@+id/t_29"
         android:layout_width="wrap_content"
@@ -1819,6 +3709,20 @@
         android:background="@null"
         android:contentDescription="@string/todo"
         app:layout_constraintStart_toEndOf="@+id/tooth30"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t_29" />
+
+    <ImageView
+        android:id="@+id/t_back_29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_30"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_29" />
 
@@ -1837,6 +3741,20 @@
         app:layout_constraintTop_toTopOf="@+id/tooth17" />
 
     <TextView
+        android:id="@+id/back_pHTooth17"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth18"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_17" />
+
+    <TextView
         android:id="@+id/pHTooth11"
         android:layout_width="30dp"
         android:layout_height="42dp"
@@ -1849,6 +3767,20 @@
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth11" />
+
+    <TextView
+        android:id="@+id/back_pHTooth11"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="720dp"
+        android:layout_marginLeft="720dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_11" />
 
     <TextView
         android:id="@+id/pHTooth22"
@@ -1864,6 +3796,20 @@
         app:layout_constraintStart_toEndOf="@+id/pHTooth23"
         app:layout_constraintTop_toTopOf="@+id/tooth22" />
 
+    <TextView
+        android:id="@+id/back_pHTooth22"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/back_pHTooth23"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_22" />
+
     <ImageButton
         android:id="@+id/tooth15"
         android:layout_width="wrap_content"
@@ -1877,6 +3823,20 @@
         app:layout_constraintStart_toEndOf="@+id/tooth14"
         app:srcCompat="@drawable/d_15" />
 
+    <ImageButton
+        android:id="@+id/tooth_back_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_14"
+        app:srcCompat="@drawable/d_15" />
+
     <ImageView
         android:id="@+id/t_15"
         android:layout_width="wrap_content"
@@ -1888,6 +3848,20 @@
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tooth14"
+        app:srcCompat="@drawable/t_15" />
+
+    <ImageView
+        android:id="@+id/t_back_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="550dp"
+        android:background="@null"
+        android:visibility="gone"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tooth_back_14"
         app:srcCompat="@drawable/t_15" />
 
     <TextView
@@ -1905,7 +3879,21 @@
         app:layout_constraintTop_toBottomOf="@+id/tooth3" />
 
     <TextView
-        android:id="@+id/toothNumber17"
+        android:id="@+id/back_pHTooth3"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="412dp"
+        android:layout_marginLeft="412dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_3" />
+
+    <TextView
+        android:id="@+id/frontToothNumber17"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="936dp"
@@ -1918,7 +3906,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber24"
+        android:id="@+id/backToothNumber17"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:visibility="gone"
+        android:layout_marginStart="936dp"
+        android:layout_marginLeft="936dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_17"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_17"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber24"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="640dp"
@@ -1931,7 +3933,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/toothNumber21"
+        android:id="@+id/backToothNumber24"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:visibility="gone"
+        android:layout_marginStart="640dp"
+        android:layout_marginLeft="640dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/_24"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_24"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/frontToothNumber21"
         android:layout_width="30dp"
         android:layout_height="42dp"
         android:layout_marginStart="740dp"
@@ -1941,6 +3957,20 @@
         android:text="@string/_21"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/tooth21"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/backToothNumber21"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="740dp"
+        android:layout_marginLeft="740dp"
+        android:layout_marginBottom="24dp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="@string/_21"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tooth_back_21"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -1956,6 +3986,20 @@
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth7" />
+
+    <TextView
+        android:id="@+id/back_pHTooth7"
+        android:layout_width="30dp"
+        android:layout_height="42dp"
+        android:layout_above="@+id/tooth1"
+        android:layout_marginStart="568dp"
+        android:layout_marginLeft="568dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_7" />
 
     <EditText
         android:id="@+id/pHInputTooth27"
@@ -1975,6 +4019,23 @@
         app:layout_constraintTop_toTopOf="@+id/tooth27" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth27"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="532dp"
+        android:layout_marginLeft="532dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_27" />
+
+    <EditText
         android:id="@+id/pHInputTooth17"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -1990,6 +4051,23 @@
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tooth17" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth17"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="924dp"
+        android:layout_marginLeft="924dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_17" />
 
     <EditText
         android:id="@+id/pHInputTooth28"
@@ -2009,6 +4087,23 @@
         app:layout_constraintTop_toTopOf="@+id/tooth28" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth28"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="496dp"
+        android:layout_marginLeft="496dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_28" />
+
+    <EditText
         android:id="@+id/pHInputTooth18"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -2024,6 +4119,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tooth18" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth18"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="864dp"
+        android:layout_marginLeft="864dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_18" />
 
     <EditText
         android:id="@+id/pHInputTooth25"
@@ -2043,6 +4155,23 @@
         app:layout_constraintTop_toTopOf="@+id/tooth25" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth25"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="596dp"
+        android:layout_marginLeft="596dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_25" />
+
+    <EditText
         android:id="@+id/pHInputTooth26"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -2058,6 +4187,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tooth26" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth26"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="564dp"
+        android:layout_marginLeft="564dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_26" />
 
     <EditText
         android:id="@+id/pHInputTooth31"
@@ -2077,6 +4223,23 @@
         app:layout_constraintTop_toTopOf="@+id/tooth31" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth31"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="352dp"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_31" />
+
+    <EditText
         android:id="@+id/pHInputTooth21"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -2092,6 +4255,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tooth21" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth21"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="726dp"
+        android:layout_marginLeft="726dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_21" />
 
     <EditText
         android:id="@+id/pHInputTooth29"
@@ -2111,6 +4291,23 @@
         app:layout_constraintTop_toTopOf="@+id/tooth29" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth29"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="460dp"
+        android:layout_marginLeft="460dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_29" />
+
+    <EditText
         android:id="@+id/pHInputTooth20"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -2126,6 +4323,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tooth20" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth20"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="760dp"
+        android:layout_marginLeft="760dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_20" />
 
     <EditText
         android:id="@+id/pHInputTooth30"
@@ -2145,6 +4359,23 @@
         app:layout_constraintTop_toTopOf="@+id/tooth30" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth30"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="412dp"
+        android:layout_marginLeft="412dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_30" />
+
+    <EditText
         android:id="@+id/pHInputTooth24"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -2162,6 +4393,23 @@
         app:layout_constraintTop_toTopOf="@+id/tooth24" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth24"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="624dp"
+        android:layout_marginLeft="624dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_24" />
+
+    <EditText
         android:id="@+id/pHInputTooth1"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -2175,9 +4423,25 @@
         android:hint="@string/_1_14"
         android:inputType="textPersonName"
         android:textSize="22sp"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tooth1" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth1"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="306dp"
+        android:layout_marginLeft="306dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tooth_back_1" />
 
     <EditText
         android:id="@+id/pHInputTooth22"
@@ -2197,6 +4461,23 @@
         app:layout_constraintTop_toTopOf="@+id/tooth22" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth22"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="692dp"
+        android:layout_marginLeft="692dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_22" />
+
+    <EditText
         android:id="@+id/pHInputTooth32"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -2212,6 +4493,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tooth32" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth32"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_32" />
 
     <EditText
         android:id="@+id/pHInputTooth19"
@@ -2231,6 +4529,23 @@
         app:layout_constraintTop_toTopOf="@+id/tooth19" />
 
     <EditText
+        android:id="@+id/back_pHInputTooth19"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="812dp"
+        android:layout_marginLeft="812dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_19" />
+
+    <EditText
         android:id="@+id/pHInputTooth23"
         android:layout_width="57dp"
         android:layout_height="52dp"
@@ -2246,6 +4561,23 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tooth23" />
+
+    <EditText
+        android:id="@+id/back_pHInputTooth23"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="656dp"
+        android:layout_marginLeft="656dp"
+        android:layout_marginTop="104dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/_1_14"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tooth_back_23" />
 
     <RadioGroup
         android:id="@+id/radioView"

@@ -62,193 +62,194 @@ public class MainActivity extends AppCompatActivity {
             teethExists[i] = true;
         }
 
-        toothNum[0] = R.id.toothNumber1;
+        // Front tooth logic
+        toothNum[0] = R.id.frontToothNumber1;
         teethId[0] = R.id.tooth1;
         phInput[0] = R.id.pHInputTooth1;
         phId[0] = R.id.pHTooth1;
         t_Id[0] = R.id.t_1;
 
-        toothNum[1] = R.id.toothNumber2;
+        toothNum[1] = R.id.frontToothNumber2;
         teethId[1] = R.id.tooth2;
         phInput[1] = R.id.pHInputTooth2;
         phId[1] = R.id.pHTooth2;
         t_Id[1] = R.id.t_2;
 
-        toothNum[2] = R.id.toothNumber3;
+        toothNum[2] = R.id.frontToothNumber3;
         teethId[2] = R.id.tooth3;
         phInput[2] = R.id.pHInputTooth3;
         phId[2] = R.id.pHTooth3;
         t_Id[2] = R.id.t_3;
 
-        toothNum[3] = R.id.toothNumber4;
+        toothNum[3] = R.id.frontToothNumber4;
         teethId[3] = R.id.tooth4;
         phInput[3] = R.id.pHInputTooth4;
         phId[3] = R.id.pHTooth4;
         t_Id[3] = R.id.t_4;
 
-        toothNum[4] = R.id.toothNumber5;
+        toothNum[4] = R.id.frontToothNumber5;
         teethId[4] = R.id.tooth5;
         phInput[4] = R.id.pHInputTooth5;
         phId[4] = R.id.pHTooth5;
         t_Id[4] = R.id.t_5;
 
-        toothNum[5] = R.id.toothNumber6;
+        toothNum[5] = R.id.frontToothNumber6;
         teethId[5] = R.id.tooth6;
         phInput[5] = R.id.pHInputTooth6;
         phId[5] = R.id.pHTooth6;
         t_Id[5] = R.id.t_6;
 
-        toothNum[6] = R.id.toothNumber7;
+        toothNum[6] = R.id.frontToothNumber7;
         teethId[6] = R.id.tooth7;
         phInput[6] = R.id.pHInputTooth7;
         phId[6] = R.id.pHTooth7;
         t_Id[6] = R.id.t_7;
 
-        toothNum[7] = R.id.toothNumber8;
+        toothNum[7] = R.id.frontToothNumber8;
         teethId[7] = R.id.tooth8;
         phInput[7] = R.id.pHInputTooth8;
         phId[7] = R.id.pHTooth8;
         t_Id[7] = R.id.t_8;
 
-        toothNum[8] = R.id.toothNumber9;
+        toothNum[8] = R.id.frontToothNumber9;
         teethId[8] = R.id.tooth9;
         phInput[8] = R.id.pHInputTooth9;
         phId[8] = R.id.pHTooth9;
         t_Id[8] = R.id.t_9;
 
-        toothNum[9] = R.id.toothNumber10;
+        toothNum[9] = R.id.frontToothNumber10;
         teethId[9] = R.id.tooth10;
         phInput[9] = R.id.pHInputTooth10;
         phId[9] = R.id.pHTooth10;
         t_Id[9] = R.id.t_10;
 
-        toothNum[10] = R.id.toothNumber11;
+        toothNum[10] = R.id.frontToothNumber11;
         teethId[10] = R.id.tooth11;
         phInput[10] = R.id.pHInputTooth11;
         phId[10] = R.id.pHTooth11;
         t_Id[10] = R.id.t_11;
 
-        toothNum[11] = R.id.toothNumber12;
+        toothNum[11] = R.id.frontToothNumber12;
         teethId[11] = R.id.tooth12;
         phInput[11] = R.id.pHInputTooth12;
         phId[11] = R.id.pHTooth12;
         t_Id[11] = R.id.t_12;
 
-        toothNum[12] = R.id.toothNumber13;
+        toothNum[12] = R.id.frontToothNumber13;
         teethId[12] = R.id.tooth13;
         phInput[12] = R.id.pHInputTooth13;
         phId[12] = R.id.pHTooth13;
         t_Id[12] = R.id.t_13;
 
-        toothNum[13] = R.id.toothNumber14;
+        toothNum[13] = R.id.frontToothNumber14;
         teethId[13] = R.id.tooth14;
         phInput[13] = R.id.pHInputTooth14;
         phId[13] = R.id.pHTooth14;
         t_Id[13] = R.id.t_14;
 
-        toothNum[14] = R.id.toothNumber15;
+        toothNum[14] = R.id.frontToothNumber15;
         teethId[14] = R.id.tooth15;
         phInput[14] = R.id.pHInputTooth15;
         phId[14] = R.id.pHTooth15;
         t_Id[14] = R.id.t_15;
 
-        toothNum[15] = R.id.toothNumber16;
+        toothNum[15] = R.id.frontToothNumber16;
         teethId[15] = R.id.tooth16;
         phInput[15] = R.id.pHInputTooth16;
         phId[15] = R.id.pHTooth16;
         t_Id[15] = R.id.t_16;
 
-        toothNum[16] = R.id.toothNumber17;
+        toothNum[16] = R.id.frontToothNumber17;
         teethId[16] = R.id.tooth17;
         phInput[16] = R.id.pHInputTooth17;
         phId[16] = R.id.pHTooth17;
         t_Id[16] = R.id.t_17;
 
-        toothNum[17] = R.id.toothNumber18;
+        toothNum[17] = R.id.frontToothNumber18;
         teethId[17] = R.id.tooth18;
         phInput[17] = R.id.pHInputTooth18;
         phId[17] = R.id.pHTooth18;
         t_Id[17] = R.id.t_18;
 
-        toothNum[18] = R.id.toothNumber19;
+        toothNum[18] = R.id.frontToothNumber19;
         teethId[18] = R.id.tooth19;
         phInput[18] = R.id.pHInputTooth19;
         phId[18] = R.id.pHTooth19;
         t_Id[18] = R.id.t_19;
 
-        toothNum[19] = R.id.toothNumber20;
+        toothNum[19] = R.id.frontToothNumber20;
         teethId[19] = R.id.tooth20;
         phInput[19] = R.id.pHInputTooth20;
         phId[19] = R.id.pHTooth20;
         t_Id[19] = R.id.t_20;
 
-        toothNum[20] = R.id.toothNumber21;
+        toothNum[20] = R.id.frontToothNumber21;
         teethId[20] = R.id.tooth21;
         phInput[20] = R.id.pHInputTooth21;
         phId[20] = R.id.pHTooth21;
         t_Id[20] = R.id.t_21;
 
-        toothNum[21] = R.id.toothNumber22;
+        toothNum[21] = R.id.frontToothNumber22;
         teethId[21] = R.id.tooth22;
         phInput[21] = R.id.pHInputTooth22;
         phId[21] = R.id.pHTooth22;
         t_Id[21] = R.id.t_22;
 
-        toothNum[22] = R.id.toothNumber23;
+        toothNum[22] = R.id.frontToothNumber23;
         teethId[22] = R.id.tooth23;
         phInput[22] = R.id.pHInputTooth23;
         phId[22] = R.id.pHTooth23;
         t_Id[22] = R.id.t_23;
 
-        toothNum[23] = R.id.toothNumber24;
+        toothNum[23] = R.id.frontToothNumber24;
         teethId[23] = R.id.tooth24;
         phInput[23] = R.id.pHInputTooth24;
         phId[23] = R.id.pHTooth24;
         t_Id[23] = R.id.t_24;
 
-        toothNum[24] = R.id.toothNumber25;
+        toothNum[24] = R.id.frontToothNumber25;
         teethId[24] = R.id.tooth25;
         phInput[24] = R.id.pHInputTooth25;
         phId[24] = R.id.pHTooth25;
         t_Id[24] = R.id.t_25;
 
-        toothNum[25] = R.id.toothNumber26;
+        toothNum[25] = R.id.frontToothNumber26;
         teethId[25] = R.id.tooth26;
         phInput[25] = R.id.pHInputTooth26;
         phId[25] = R.id.pHTooth26;
         t_Id[25] = R.id.t_26;
 
-        toothNum[26] = R.id.toothNumber27;
+        toothNum[26] = R.id.frontToothNumber27;
         teethId[26] = R.id.tooth27;
         phInput[26] = R.id.pHInputTooth27;
         phId[26] = R.id.pHTooth27;
         t_Id[26] = R.id.t_27;
 
-        toothNum[27] = R.id.toothNumber28;
+        toothNum[27] = R.id.frontToothNumber28;
         teethId[27] = R.id.tooth28;
         phInput[27] = R.id.pHInputTooth28;
         phId[27] = R.id.pHTooth28;
         t_Id[27] = R.id.t_28;
 
-        toothNum[28] = R.id.toothNumber29;
+        toothNum[28] = R.id.frontToothNumber29;
         teethId[28] = R.id.tooth29;
         phInput[28] = R.id.pHInputTooth29;
         phId[28] = R.id.pHTooth29;
         t_Id[28] = R.id.t_29;
 
-        toothNum[29] = R.id.toothNumber30;
+        toothNum[29] = R.id.frontToothNumber30;
         teethId[29] = R.id.tooth30;
         phInput[29] = R.id.pHInputTooth30;
         phId[29] = R.id.pHTooth30;
         t_Id[29] = R.id.t_30;
 
-        toothNum[30] = R.id.toothNumber31;
+        toothNum[30] = R.id.frontToothNumber31;
         teethId[30] = R.id.tooth31;
         phInput[30] = R.id.pHInputTooth31;
         phId[30] = R.id.pHTooth31;
         t_Id[30] = R.id.t_31;
 
-        toothNum[31] = R.id.toothNumber32;
+        toothNum[31] = R.id.frontToothNumber32;
         teethId[31] = R.id.tooth32;
         phInput[31] = R.id.pHInputTooth32;
         phId[31] = R.id.pHTooth32;
