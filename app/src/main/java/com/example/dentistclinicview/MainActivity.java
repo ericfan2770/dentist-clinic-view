@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
     private int currToothId;
 
     private boolean[] teethExists;
-    private boolean[] back_teethExists;
 
     private RadioGroup radioGroup;
     private RadioButton radioButton;
@@ -70,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
         phId = new int[NUM_TEETH];
         t_Id = new int[NUM_TEETH];
         teethExists = new boolean[NUM_TEETH];
-        back_teethExists = new boolean[NUM_TEETH];
 
         isFrontView = true;
 
@@ -82,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
 
         for (int i = 0; i < NUM_TEETH; i++) {
             teethExists[i] = true;
-            back_teethExists[i] = true;
         }
 
         // Front tooth logic
@@ -559,7 +556,7 @@ public class MainActivity extends AppCompatActivity {
 
                     // Make the back teeth logic and tools appear
                     for (int i = 0; i < NUM_TEETH; i++) {
-                        if (back_teethExists[i]) {
+                        if (teethExists[i]) {
                             ImageButton button = findViewById(back_teethId[i]);
                             button.setVisibility(View.VISIBLE);
 
@@ -649,12 +646,7 @@ public class MainActivity extends AppCompatActivity {
                                 button.setVisibility(View.INVISIBLE);
                                 phDisplay.setVisibility(View.INVISIBLE);
                                 phInput.setVisibility(View.INVISIBLE);
-                                if (isFrontView) {
-                                    teethExists[tooth] = false;
-                                } else {
-                                    back_teethExists[tooth] = false;
-                                }
-
+                                teethExists[tooth] = false;
                             }
                         });
 
@@ -721,12 +713,7 @@ public class MainActivity extends AppCompatActivity {
                 button.setVisibility(View.VISIBLE);
                 phDisplay.setVisibility(View.VISIBLE);
                 frontView.setVisibility(View.VISIBLE);
-                if (isFrontView) {
-                    teethExists[tooth] = true;
-                } else {
-                    back_teethExists[tooth] = true;
-                }
-
+                teethExists[tooth] = true;
             }
         });
     }
