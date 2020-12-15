@@ -59,8 +59,6 @@ public class MainActivity extends AppCompatActivity {
     private RadioButton radioButton;
     private Button radioSubmit;
 
-    private boolean isFrontView;
-
     public MainActivity() {
         toothNum = new int[NUM_TEETH];
         teethPh = new int[NUM_TEETH];
@@ -69,8 +67,6 @@ public class MainActivity extends AppCompatActivity {
         phId = new int[NUM_TEETH];
         t_Id = new int[NUM_TEETH];
         teethExists = new boolean[NUM_TEETH];
-
-        isFrontView = true;
 
         back_toothNum = new int[NUM_TEETH];
         back_teethId = new int[NUM_TEETH];  // the tooth buttons
@@ -490,13 +486,18 @@ public class MainActivity extends AppCompatActivity {
         radioSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                for (int i = 0; i < NUM_TEETH; i++) {
+                    EditText phInputFront = findViewById(phInput[i]);
+                    EditText phInputBack = findViewById(back_phInput[i]);
+                    phInputFront.setVisibility(View.INVISIBLE);
+                    phInputBack.setVisibility(View.INVISIBLE);
+                    showingInput = false;
+                }
                 int selectedId = radioGroup.getCheckedRadioButtonId();
                 radioButton = (RadioButton) findViewById(selectedId);
                 if (radioButton.equals(findViewById(R.id.radioFront))) {
                     // The front radio button is selected
                     frontBackTextView.setText("Front View");
-                    isFrontView = true;
-
                     // make all the front tooth logic show up
                     for (int i = 0; i < NUM_TEETH; i++) {
                         if (teethExists[i]) {
@@ -533,8 +534,6 @@ public class MainActivity extends AppCompatActivity {
                         toothNumber.setVisibility(View.INVISIBLE);
                     }
                 } else {
-                    isFrontView = false;
-
                     // The back radio button is selected
                     frontBackTextView.setText("Back View");
 
@@ -572,7 +571,6 @@ public class MainActivity extends AppCompatActivity {
                         TextView toothNumber = findViewById(back_toothNum[i]);
                         toothNumber.setVisibility(View.VISIBLE);
                     }
-
                 }
             }
         });
@@ -710,10 +708,12 @@ public class MainActivity extends AppCompatActivity {
         toothNumDisplay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                button.setVisibility(View.VISIBLE);
-                phDisplay.setVisibility(View.VISIBLE);
-                frontView.setVisibility(View.VISIBLE);
-                teethExists[tooth] = true;
+                if (!teethExists[tooth]) {
+                    button.setVisibility(View.VISIBLE);
+                    phDisplay.setVisibility(View.VISIBLE);
+                    frontView.setVisibility(View.VISIBLE);
+                    teethExists[tooth] = true;
+                }
             }
         });
     }
