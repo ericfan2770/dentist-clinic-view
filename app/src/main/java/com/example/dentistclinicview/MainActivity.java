@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
     private boolean showingInput;
     private int currToothId;
 
+    private boolean[] teethExists;
+
     private RadioGroup radioGroup;
     private RadioButton radioButton;
     private Button radioSubmit;
@@ -54,6 +56,11 @@ public class MainActivity extends AppCompatActivity {
         phInput = new int[NUM_TEETH];
         phId = new int[NUM_TEETH];
         t_Id = new int[NUM_TEETH];
+        teethExists = new boolean[NUM_TEETH];
+
+        for (int i = 0; i < NUM_TEETH; i++) {
+            teethExists[i] = true;
+        }
 
         toothNum[0] = R.id.toothNumber1;
         teethId[0] = R.id.tooth1;
@@ -167,6 +174,7 @@ public class MainActivity extends AppCompatActivity {
         teethId[18] = R.id.tooth19;
         phInput[18] = R.id.pHInputTooth19;
         phId[18] = R.id.pHTooth19;
+        t_Id[18] = R.id.t_19;
 
         toothNum[19] = R.id.toothNumber20;
         teethId[19] = R.id.tooth20;
@@ -271,9 +279,35 @@ public class MainActivity extends AppCompatActivity {
                 if (radioButton.equals(findViewById(R.id.radioFront))) {
                     // The front radio button is selected
                     frontBackTextView.setText("Front View");
+
+                    for (int i = 0; i < NUM_TEETH; i++) {
+                        if (teethExists[i]) {
+                            ImageButton button = findViewById(teethId[i]);
+                            button.setVisibility(View.VISIBLE);
+
+                            ImageView tooth = findViewById(t_Id[i]);
+                            tooth.setVisibility(View.VISIBLE);
+
+                            TextView phDisplay = findViewById(phId[i]);
+                            phDisplay.setVisibility(View.VISIBLE);
+                        }
+                    }
+
                 } else {
                     // The back radio button is selected
                     frontBackTextView.setText("Back View");
+
+                    // Make all of the front teeth disappear
+                    for (int i = 0; i < NUM_TEETH; i++) {
+                        ImageButton button = findViewById(teethId[i]);
+                        button.setVisibility(View.INVISIBLE);
+
+                        ImageView tooth = findViewById(t_Id[i]);
+                        tooth.setVisibility(View.INVISIBLE);
+
+                        TextView phDisplay = findViewById(phId[i]);
+                        phDisplay.setVisibility(View.INVISIBLE);
+                    }
                 }
             }
         });
@@ -347,7 +381,7 @@ public class MainActivity extends AppCompatActivity {
                                 button.setVisibility(View.INVISIBLE);
                                 phDisplay.setVisibility(View.INVISIBLE);
                                 phInput.setVisibility(View.INVISIBLE);
-
+                                teethExists[tooth] = false;
                             }
                         });
 
@@ -414,6 +448,7 @@ public class MainActivity extends AppCompatActivity {
                 button.setVisibility(View.VISIBLE);
                 phDisplay.setVisibility(View.VISIBLE);
                 frontView.setVisibility(View.VISIBLE);
+                teethExists[tooth] = true;
             }
         });
     }
