@@ -689,7 +689,7 @@ public class MainActivity extends AppCompatActivity {
 
                         // Display pH that user entered
                         String confirmation = "You entered a pH of " + teethPh[tooth] + " for tooth " + (tooth + 1);
-                        showToast(confirmation);
+                        // showToast(confirmation);
 
                         // Make the pH input field invisible
                         phInput.setVisibility(View.INVISIBLE);
@@ -744,7 +744,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toast toast = new Toast(getApplicationContext());
         toast.setGravity(Gravity.TOP, 0, 865);
-        toast.setDuration(Toast.LENGTH_LONG);
+        toast.setDuration(Toast.LENGTH_SHORT);
         toast.setView(layout);
         toast.show();
     }
