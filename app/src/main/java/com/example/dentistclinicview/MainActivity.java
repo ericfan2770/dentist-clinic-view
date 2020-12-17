@@ -37,11 +37,12 @@ public class MainActivity extends AppCompatActivity {
     private final int[] teethPh;
 
     // For front teeth
-    private final int[] toothNum;
+    // all arrays have 32 elements, with element at index 0 representing tooth 1 and so on
+    private final int[] toothNum; // the tooth number (1-32)
     private final int[] teethId;  // the tooth buttons
     private final int[] t_Id;  // the tooth background
-    private final int[] phInput;
-    private final int[] phId;
+    private final int[] phInput; // the input box for entering pH
+    private final int[] phId; // pH of a particular tooth
 
     // For back teeth
     private final int[] back_toothNum;
@@ -50,11 +51,12 @@ public class MainActivity extends AppCompatActivity {
     private final int[] back_phInput;
     private final int[] back_phId;
 
-    private boolean showingInput;
-    private int currToothId;
+    private boolean showingInput; // whether the user is currently in the process of entering a pH
+    private int currToothId; // current tooth that the user is entering pH for
 
-    private boolean[] teethExists;
+    private boolean[] teethExists; // stores whether a teeth exists (has not been deleted)
 
+    // Radios for toggling between front and back view
     private RadioGroup radioGroup;
     private RadioButton radioButton;
     private Button radioSubmit;
@@ -475,11 +477,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Instantiate all the teeth
         for (int i = 0; i < NUM_TEETH; i++) {
             handleTooth(i, toothNum[i], teethId[i], phInput[i], phId[i], t_Id[i]);
             handleTooth(i, back_toothNum[i], back_teethId[i], back_phInput[i], back_phId[i], back_t_Id[i]);
         }
 
+        // Logic for toggling between front and back view
         TextView frontBackTextView = findViewById(R.id.frontBackTextView);
         radioGroup = (RadioGroup) findViewById(R.id.radioView);
         radioSubmit = (Button) findViewById(R.id.frontBackButton);
@@ -632,6 +636,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
+                // Confirm deletion
                 AlertDialog.Builder builder1 = new AlertDialog.Builder(MainActivity.this);
                 builder1.setMessage("Are you sure you want to delete tooth " + (tooth + 1)+ "?");
                 builder1.setCancelable(true);
@@ -640,6 +645,7 @@ public class MainActivity extends AppCompatActivity {
                         "Yes",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
+                                // Make that tooth's logic and tools invisible
                                 frontView.setVisibility(View.INVISIBLE);
                                 button.setVisibility(View.INVISIBLE);
                                 phDisplay.setVisibility(View.INVISIBLE);
@@ -651,6 +657,7 @@ public class MainActivity extends AppCompatActivity {
                 builder1.setNegativeButton(
                         "No",
                         new DialogInterface.OnClickListener() {
+                            // Return to original state
                             public void onClick(DialogInterface dialog, int id) {
                                 dialog.cancel();
                             }
@@ -666,7 +673,7 @@ public class MainActivity extends AppCompatActivity {
         // Desired action to be performed when the enter button is clicked
         phInput.setOnKeyListener(new View.OnKeyListener() {
             public boolean onKey(View v, int keyCode, KeyEvent event) {
-                boolean ok = true;
+                boolean ok = true; // whether the user input is valid
                 // If the user has clicked enter
                 if (event.getAction() == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_ENTER) {
                     // Get the pH that the client has entered
@@ -685,6 +692,7 @@ public class MainActivity extends AppCompatActivity {
                         // Indicate that we are no longer waiting for user input
                         showingInput = false;
 
+                        // Set the tooth to the appropriate color
                         setToothColor(button, contextInstance, teethPh[tooth]);
 
                         // Display pH that user entered
@@ -709,6 +717,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (!teethExists[tooth]) {
+                    // Make the tooth logic and tools reappear
                     button.setVisibility(View.VISIBLE);
                     phDisplay.setVisibility(View.VISIBLE);
                     frontView.setVisibility(View.VISIBLE);
@@ -718,6 +727,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    // Close the android keyboard.
     public void closeKeyboard() {
         View view = this.getCurrentFocus();
         if (view != null) {
@@ -726,11 +736,13 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // Show the pH for a particular tooth
     public void pHDisplay(TextView phDisplay, int pH) {
         phDisplay.setText("" + pH);
         phDisplay.setVisibility(View.VISIBLE);
     }
 
+    // Logic for showing a tooth
     @RequiresApi(api = Build.VERSION_CODES.M)
     public void showToast(String text) {
         //Toast.makeText(MainActivity.this, text, Toast.LENGTH_SHORT).show();
@@ -749,6 +761,7 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 
+    // Check if a pH is valid or not (1-14 inclusive)
     public boolean validPh(int ph) {
         return ph >= 1 && ph <= 14;
     }
